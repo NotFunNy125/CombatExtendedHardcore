@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Small Caliber Low Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_75FK_HP" or
+            defName="Ammo_8x22mmNambu_HP" or
+            defName="Ammo_9x18mmMakarov_HP" or
+            defName="Ammo_9x19mmPara_HP" or
+            defName="Ammo_9x21mmGyurza_HP" or
+            defName="Ammo_10mmAuto_HP" or
+            defName="Ammo_13mmGyrojet_HP" or
+            defName="Ammo_22LR_HP" or
+            defName="Ammo_22Short_HP" or
+            defName="Ammo_25ACP_HP" or
+            defName="Ammo_32ACP_HP" or
+            defName="Ammo_38ACP_HP" or
+            defName="Ammo_38Special_HP" or
+            defName="Ammo_38Super_HP" or
+            defName="Ammo_38SW_HP" or
+            defName="Ammo_40SW_HP" or
+            defName="Ammo_762x25mmTokarev_HP" or
+            defName="Ammo_17HMR_HP" or
+            defName="Ammo_22Hornet_HP" or
+            defName="Ammo_22WMR_HP" or
+            defName="Ammo_41Rimfire_HP" or
+            defName="Ammo_44Magnum_HP" or
+            defName="Ammo_44SWSpecial_HP" or
+            defName="Ammo_45ACP_HP" or
+            defName="Ammo_45Colt_HP"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>3</MarketValue>
+            </value>
+    </Operation>
+    <!--Small Caliber Medium Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_75FK_FMJ" or
+            defName="Ammo_8x22mmNambu_FMJ" or
+            defName="Ammo_9x18mmMakarov_FMJ" or
+            defName="Ammo_9x19mmPara_FMJ" or
+            defName="Ammo_9x21mmGyurza_FMJ" or
+            defName="Ammo_10mmAuto_FMJ" or
+            defName="Ammo_13mmGyrojet_FMJ" or
+            defName="Ammo_22LR_FMJ" or
+            defName="Ammo_22Short_FMJ" or
+            defName="Ammo_25ACP_FMJ" or
+            defName="Ammo_32ACP_FMJ" or
+            defName="Ammo_38ACP_FMJ" or
+            defName="Ammo_38Special_FMJ" or
+            defName="Ammo_38Super_FMJ" or
+            defName="Ammo_38SW_FMJ" or
+            defName="Ammo_40SW_FMJ" or
+            defName="Ammo_762x25mmTokarev_FMJ" or
+            defName="Ammo_17HMR_FMJ" or
+            defName="Ammo_22Hornet_FMJ" or
+            defName="Ammo_22WMR_FMJ" or
+            defName="Ammo_41Rimfire_FMJ" or
+            defName="Ammo_44Magnum_FMJ" or
+            defName="Ammo_44SWSpecial_FMJ" or
+            defName="Ammo_45ACP_FMJ" or
+            defName="Ammo_45Colt_FMJ" or
+            defName="Ammo_45Schofield_FMJ" or
+            defName="Ammo_46x30mm_FMJ"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>3</MarketValue>
+            </value>
+    </Operation>
+    <!--Small Caliber High Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_75FK_AP" or
+            defName="Ammo_8x22mmNambu_AP" or
+            defName="Ammo_9x18mmMakarov_AP" or
+            defName="Ammo_9x19mmPara_AP" or
+            defName="Ammo_9x21mmGyurza_AP" or
+            defName="Ammo_10mmAuto_AP" or
+            defName="Ammo_13mmGyrojet_AP" or
+            defName="Ammo_22LR_AP" or
+            defName="Ammo_22Short_AP" or
+            defName="Ammo_25ACP_AP" or
+            defName="Ammo_32ACP_AP" or
+            defName="Ammo_38ACP_AP" or
+            defName="Ammo_38Special_AP" or
+            defName="Ammo_38Super_AP" or
+            defName="Ammo_38SW_AP" or
+            defName="Ammo_40SW_AP" or
+            defName="Ammo_762x25mmTokarev_AP" or
+            defName="Ammo_17HMR_AP" or
+            defName="Ammo_22Hornet_AP" or
+            defName="Ammo_22WMR_AP" or
+            defName="Ammo_41Rimfire_AP" or
+            defName="Ammo_44Magnum_AP" or
+            defName="Ammo_44SWSpecial_AP" or
+            defName="Ammo_45ACP_AP" or
+            defName="Ammo_45Colt_AP" or
+            defName="Ammo_45Schofield_AP" or
+            defName="Ammo_46x30mm_AP" or
+            defName="Ammo_8x50mmRLebel_AP" or
+            defName="Ammo_6x18mmCharged_AP" or
+            defName="Ammo_6x24mmCharged_AP" or
+            defName="Ammo_8x35mmCharged_AP" or
+            defName="Ammo_8x50mmCharged_AP" or
+            defName="Ammo_10x18mmCharged_AP"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>4</MarketValue>
+            </value>
+    </Operation>
+    <!--Small Caliber Sabot-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_6mmRailgun_Sabot" or
+            defName="Ammo_8mmRailgun_Sabot" or
+            defName="Ammo_12mmRailgun_Sabot"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>6</MarketValue>
+            </value>
+    </Operation>
+
+    <!--Medium Caliber Low Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_50AE_HP" or
+            defName="Ammo_58x21mmDAP92_HP" or
+            defName="Ammo_357Magnum_HP" or
+            defName="Ammo_357SIG_HP" or
+            defName="Ammo_380ACP_HP" or
+            defName="Ammo_454Casull_HP" or
+            defName="Ammo_455Webley_HP" or
+            defName="Ammo_460SWMagnum_HP" or
+            defName="Ammo_500SWMagnum_HP" or
+            defName="Ammo_762x38mmR_HP" or
+            defName="Ammo_763x25mmMauser_HP" or
+            defName="Ammo_765x20mmLongue_HP" or
+            defName="Ammo_FN57x28mm_HP" or
+            defName="Ammo_65x48mmCreedmoor_HP" or
+            defName="Ammo_65x52mmCarcano_HP" or
+            defName="Ammo_792x57mmMauser_HP" or
+            defName="Ammo_86x43mmBlackout_HP" or
+            defName="Ammo_300AACBlackout_HP" or
+            defName="Ammo_303British_HP" or
+            defName="Ammo_458SOCOM_HP" or
+            defName="Ammo_473x33mmCaseless_HP" or
+            defName="Ammo_485x49mm_HP" or
+            defName="Ammo_545x39mmSoviet_HP" or
+            defName="Ammo_556x45mmNATO_HP" or
+            defName="Ammo_762x39mmSoviet_HP" or
+            defName="Ammo_762x51mmNATO_HP" or
+            defName="Ammo_762x54mmR_HP" or
+            defName="Ammo_792x33mmKurz_HP" or
+            defName="Ammo_45Schofield_HP" or
+            defName="Ammo_46x30mm_HP" or
+            defName="Ammo_8x50mmRLebel_HP" or
+            defName="Ammo_8x50mmRMannlicher_HP" or
+            defName="Ammo_9x39mmSoviet_HP" or
+            defName="Ammo_3030Winchester_HP" or
+            defName="Ammo_30Carbine_HP" or
+            defName="Ammo_3855Winchester_HP" or
+            defName="Ammo_44-40Winchester_HP"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>3</MarketValue>
+            </value>
+    </Operation>
+    <!--Medium Caliber Medium Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_50AE_FMJ" or
+            defName="Ammo_58x21mmDAP92_FMJ" or
+            defName="Ammo_357Magnum_FMJ" or
+            defName="Ammo_357SIG_FMJ" or
+            defName="Ammo_380ACP_FMJ" or
+            defName="Ammo_454Casull_FMJ" or
+            defName="Ammo_455Webley_FMJ" or
+            defName="Ammo_460SWMagnum_FMJ" or
+            defName="Ammo_500SWMagnum_FMJ" or
+            defName="Ammo_762x38mmR_FMJ" or
+            defName="Ammo_763x25mmMauser_FMJ" or
+            defName="Ammo_765x20mmLongue_FMJ" or
+            defName="Ammo_FN57x28mm_FMJ" or
+            defName="Ammo_65x48mmCreedmoor_FMJ" or
+            defName="Ammo_65x52mmCarcano_FMJ" or
+            defName="Ammo_792x57mmMauser_FMJ" or
+            defName="Ammo_86x43mmBlackout_FMJ" or
+            defName="Ammo_300AACBlackout_FMJ" or
+            defName="Ammo_303British_FMJ" or
+            defName="Ammo_458SOCOM_FMJ" or
+            defName="Ammo_473x33mmCaseless_FMJ" or
+            defName="Ammo_485x49mm_FMJ" or
+            defName="Ammo_545x39mmSoviet_FMJ" or
+            defName="Ammo_556x45mmNATO_FMJ" or
+            defName="Ammo_762x39mmSoviet_FMJ" or
+            defName="Ammo_762x51mmNATO_FMJ" or
+            defName="Ammo_762x54mmR_FMJ" or
+            defName="Ammo_792x33mmKurz_FMJ" or
+            defName="Ammo_8x50mmRLebel_FMJ" or
+            defName="Ammo_8x50mmRMannlicher_FMJ" or
+            defName="Ammo_9x39mmSoviet_FMJ" or
+            defName="Ammo_3030Winchester_FMJ" or
+            defName="Ammo_30Carbine_FMJ" or
+            defName="Ammo_3855Winchester_FMJ" or
+            defName="Ammo_44-40Winchester_FMJ" or
+            defName="Ammo_50Beowulf_FMJ" or
+            defName="Ammo_5656Spencer_FMJ" or
+            defName="Ammo_58x42mmDBP10_FMJ" or
+            defName="Ammo_243Winchester_FMJ" or
+            defName="Ammo_277Fury_FMJ" or
+            defName="Ammo_280British_FMJ" or
+            defName="Ammo_3006Springfield_FMJ" or
+            defName="Ammo_243Winchester_Incendiary" or
+            defName="Ammo_277Fury_Incendiary" or
+            defName="Ammo_280British_Incendiary" or
+            defName="Ammo_300AACBlackout_Incendiary" or
+            defName="Ammo_303British_Incendiary" or
+            defName="Ammo_458SOCOM_Incendiary" or
+            defName="Ammo_473x33mmCaseless_Incendiary" or
+            defName="Ammo_485x49mm_Incendiary" or
+            defName="Ammo_545x39mmSoviet_Incendiary" or
+            defName="Ammo_556x45mmNATO_Incendiary" or
+            defName="Ammo_762x39mmSoviet_Incendiary" or
+            defName="Ammo_762x51mmNATO_Incendiary" or
+            defName="Ammo_762x54mmR_Incendiary" or
+            defName="Ammo_792x33mmKurz_Incendiary" or
+            defName="Ammo_3006Springfield_Incendiary" or
+            defName="Ammo_792x57mmMauser_Incendiary" or
+            defName="Ammo_86x43mmBlackout_Incendiary" or
+            defName="Ammo_8x50mmRLebel_Incendiary" or
+            defName="Ammo_8x50mmRMannlicher_Incendiary" or
+            defName="Ammo_9x39mmSoviet_Incendiary" or
+            defName="Ammo_3030Winchester_Incendiary" or
+            defName="Ammo_30Carbine_Incendiary" or
+            defName="Ammo_3855Winchester_Incendiary" or
+            defName="Ammo_44-40Winchester_Incendiary" or
+            defName="Ammo_50Beowulf_Incendiary" or
+            defName="Ammo_5656Spencer_Incendiary"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>4</MarketValue>
+            </value>
+    </Operation>
+    <!--Medium Caliber High Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_545x39mmSoviet_AP" or
+            defName="Ammo_556x45mmNATO_AP" or
+            defName="Ammo_762x39mmSoviet_AP" or
+            defName="Ammo_762x51mmNATO_AP" or
+            defName="Ammo_762x54mmR_AP" or
+            defName="Ammo_792x33mmKurz_AP" or
+            defName="Ammo_50AE_AP" or
+            defName="Ammo_58x21mmDAP92_AP" or
+            defName="Ammo_357Magnum_AP" or
+            defName="Ammo_357SIG_AP" or
+            defName="Ammo_380ACP_AP" or
+            defName="Ammo_454Casull_AP" or
+            defName="Ammo_455Webley_AP" or
+            defName="Ammo_460SWMagnum_AP" or
+            defName="Ammo_500SWMagnum_AP" or
+            defName="Ammo_762x38mmR_AP" or
+            defName="Ammo_763x25mmMauser_AP" or
+            defName="Ammo_765x20mmLongue_AP" or
+            defName="Ammo_FN57x28mm_AP" or
+            defName="Ammo_65x48mmCreedmoor_AP" or
+            defName="Ammo_65x52mmCarcano_AP" or
+            defName="Ammo_792x57mmMauser_AP" or
+            defName="Ammo_86x43mmBlackout_AP" or
+            defName="Ammo_300AACBlackout_AP" or
+            defName="Ammo_8x50mmRMannlicher_AP" or
+            defName="Ammo_9x39mmSoviet_AP" or
+            defName="Ammo_3030Winchester_AP" or
+            defName="Ammo_30Carbine_AP" or
+            defName="Ammo_3855Winchester_AP" or
+            defName="Ammo_44-40Winchester_AP" or
+            defName="Ammo_50Beowulf_AP" or
+            defName="Ammo_243Winchester_AP" or
+            defName="Ammo_277Fury_AP" or
+            defName="Ammo_280British_AP" or
+            defName="Ammo_303British_AP" or
+            defName="Ammo_5656Spencer_AP" or
+            defName="Ammo_20x42mm_AP" or
+            defName="Ammo_4570Gov_AP" or
+            defName="Ammo_65x48mmCreedmoor_HE" or
+            defName="Ammo_65x52mmCarcano_HE" or
+            defName="Ammo_792x57mmMauser_HE" or
+            defName="Ammo_86x43mmBlackout_HE" or
+            defName="Ammo_8x50mmRLebel_HE" or
+            defName="Ammo_8x50mmRMannlicher_HE" or
+            defName="Ammo_9x39mmSoviet_HE" or
+            defName="Ammo_3030Winchester_HE" or
+            defName="Ammo_30Carbine_HE" or
+            defName="Ammo_3855Winchester_HE" or
+            defName="Ammo_44-40Winchester_HE" or
+            defName="Ammo_50Beowulf_HE" or
+            defName="Ammo_5656Spencer_HE" or
+            defName="Ammo_127x55mm_HE" or
+            defName="Ammo_243Winchester_HE" or
+            defName="Ammo_277Fury_HE" or
+            defName="Ammo_280British_HE" or
+            defName="Ammo_300AACBlackout_HE" or
+            defName="Ammo_303British_HE" or
+            defName="Ammo_458SOCOM_HE" or
+            defName="Ammo_473x33mmCaseless_HE" or
+            defName="Ammo_485x49mm_HE" or
+            defName="Ammo_545x39mmSoviet_HE" or
+            defName="Ammo_556x45mmNATO_HE" or
+            defName="Ammo_762x39mmSoviet_HE" or
+            defName="Ammo_762x51mmNATO_HE" or
+            defName="Ammo_762x54mmR_HE" or
+            defName="Ammo_792x33mmKurz_HE" or
+            defName="Ammo_3006Springfield_HE" or
+            defName="Ammo_4570Gov_HE"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>5</MarketValue>
+            </value>
+    </Operation>
+    <!--Medium Caliber Sabot-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_8x50mmRLebel_Sabot" or
+            defName="Ammo_8x50mmRMannlicher_Sabot" or
+            defName="Ammo_9x39mmSoviet_Sabot" or
+            defName="Ammo_3030Winchester_Sabot" or
+            defName="Ammo_30Carbine_Sabot" or
+            defName="Ammo_3855Winchester_Sabot" or
+            defName="Ammo_44-40Winchester_Sabot" or
+            defName="Ammo_50Beowulf_Sabot" or
+            defName="Ammo_5656Spencer_Sabot" or
+            defName="Ammo_58x42mmDBP10_Sabot" or
+            defName="Ammo_243Winchester_Sabot" or
+            defName="Ammo_277Fury_Sabot" or
+            defName="Ammo_280British_Sabot" or
+            defName="Ammo_300AACBlackout_Sabot" or
+            defName="Ammo_303British_Sabot" or
+            defName="Ammo_458SOCOM_Sabot" or
+            defName="Ammo_556x45mmNATO_Sabot" or
+            defName="Ammo_762x39mmSoviet_Sabot" or
+            defName="Ammo_762x51mmNATO_Sabot" or
+            defName="Ammo_762x54mmR_Sabot" or
+            defName="Ammo_792x33mmKurz_Sabot" or
+            defName="Ammo_3006Springfield_Sabot" or
+            defName="Ammo_4570Gov_Sabot" or
+            defName="Ammo_545x39mmSoviet_Sabot"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>7</MarketValue>
+            </value>
+    </Operation>
+
+    <!--High Caliber Low Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_50Beowulf_HP" or
+            defName="Ammo_5656Spencer_HP" or
+            defName="Ammo_58x42mmDBP10_HP" or
+            defName="Ammo_65x50mmSRArisaka_HP" or
+            defName="Ammo_75x54mmFrench_HP" or
+            defName="Ammo_77x58mmArisaka_HP" or
+            defName="Ammo_127x55mm_HP" or
+            defName="Ammo_243Winchester_HP" or
+            defName="Ammo_277Fury_HP" or
+            defName="Ammo_280British_HP" or
+            defName="Ammo_3006Springfield_HP" or
+            defName="Ammo_4570Gov_HP"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>3</MarketValue>
+            </value>
+    </Operation>
+    <!--High Caliber Medium Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_2Bore_FMJ" or
+            defName="Ammo_792x94mmPatronen_FMJ" or
+            defName="Ammo_127x108mm_FMJ" or
+            defName="Ammo_132x92mmSRTuF_FMJ" or
+            defName="Ammo_145x114mm_FMJ" or
+            defName="Ammo_50BMG_FMJ" or
+            defName="Ammo_55Boys_FMJ" or
+            defName="Ammo_300WinchesterMagnum_FMJ" or
+            defName="Ammo_338Lapua_FMJ" or
+            defName="Ammo_338Norma_FMJ" or
+            defName="Ammo_408CheyenneTactical_FMJ" or
+            defName="Ammo_470NitroExpress_FMJ" or
+            defName="Ammo_600NitroExpress_FMJ" or
+            defName="Ammo_950JDJ_FMJ" or
+            defName="Ammo_65x50mmSRArisaka_FMJ" or
+            defName="Ammo_75x54mmFrench_FMJ" or
+            defName="Ammo_77x58mmArisaka_FMJ" or
+            defName="Ammo_127x55mm_FMJ" or
+            defName="Ammo_4570Gov_FMJ" or
+            defName="Ammo_2Bore_Incendiary" or
+            defName="Ammo_792x94mmPatronen_Incendiary" or
+            defName="Ammo_127x108mm_Incendiary" or
+            defName="Ammo_132x92mmSRTuF_Incendiary" or
+            defName="Ammo_145x114mm_Incendiary" or
+            defName="Ammo_50BMG_Incendiary" or
+            defName="Ammo_55Boys_Incendiary" or
+            defName="Ammo_300WinchesterMagnum_Incendiary" or
+            defName="Ammo_338Lapua_Incendiary" or
+            defName="Ammo_338Norma_Incendiary" or
+            defName="Ammo_408CheyenneTactical_Incendiary" or
+            defName="Ammo_470NitroExpress_Incendiary" or
+            defName="Ammo_600NitroExpress_Incendiary" or
+            defName="Ammo_50JDJ_Incendiary" or
+            defName="Ammo_65x48mmCreedmoor_Incendiary" or
+            defName="Ammo_65x52mmCarcano_Incendiary" or
+            defName="Ammo_58x42mmDBP10_Incendiary" or
+            defName="Ammo_65x50mmSRArisaka_Incendiary" or
+            defName="Ammo_75x54mmFrench_Incendiary" or
+            defName="Ammo_77x58mmArisaka_Incendiary" or
+            defName="Ammo_127x55mm_Incendiary" or
+            defName="Ammo_4570Gov_Incendiary"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>4</MarketValue>
+            </value>
+    </Operation>
+    <!--High Caliber High Pen-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_2Bore_AP" or
+            defName="Ammo_792x94mmPatronen_AP" or
+            defName="Ammo_127x108mm_AP" or
+            defName="Ammo_132x92mmSRTuF_AP" or
+            defName="Ammo_145x114mm_AP" or
+            defName="Ammo_20x82mmMauser_AP" or
+            defName="Ammo_20x99mmRShVAK_AP" or
+            defName="Ammo_20x102mmNATO_AP" or
+            defName="Ammo_20x110mmHispano_AP" or
+            defName="Ammo_20x128mmOerlikon_AP" or
+            defName="Ammo_20x138mmB_AP" or
+            defName="Ammo_20x139mm_AP" or
+            defName="Ammo_23x152mmB_AP" or
+            defName="Ammo_25x137mmNATO_AP" or
+            defName="Ammo_30x113mmB_AP" or
+            defName="Ammo_30x165mm_AP" or
+            defName="Ammo_30x173mmNATO_AP" or
+            defName="Ammo_40x311mmR_AP" or
+            defName="Ammo_50BMG_AP" or
+            defName="Ammo_55Boys_AP" or
+            defName="Ammo_300WinchesterMagnum_AP" or
+            defName="Ammo_338Lapua_AP" or
+            defName="Ammo_338Norma_AP" or
+            defName="Ammo_408CheyenneTactical_AP" or
+            defName="Ammo_470NitroExpress_AP" or
+            defName="Ammo_600NitroExpress_AP" or
+            defName="Ammo_950JDJ_AP" or
+            defName="Ammo_58x42mmDBP10_AP" or
+            defName="Ammo_65x50mmSRArisaka_AP" or
+            defName="Ammo_75x54mmFrench_AP" or
+            defName="Ammo_77x58mmArisaka_AP" or
+            defName="Ammo_127x55mm_AP" or
+            defName="Ammo_458SOCOM_AP" or
+            defName="Ammo_473x33mmCaseless_AP" or
+            defName="Ammo_485x49mm_AP" or
+            defName="Ammo_3006Springfield_AP" or
+            defName="Ammo_12x72mmCharged_AP" or
+            defName="Ammo_20x105mmCharged_AP" or
+            defName="Ammo_2Bore_HE" or
+            defName="Ammo_792x94mmPatronen_HE" or
+            defName="Ammo_127x108mm_HE" or
+            defName="Ammo_50BMG_HE" or
+            defName="Ammo_55Boys_HE" or
+            defName="Ammo_300WinchesterMagnum_HE" or
+            defName="Ammo_338Lapua_HE" or
+            defName="Ammo_338Norma_HE" or
+            defName="Ammo_408CheyenneTactical_HE" or
+            defName="Ammo_470NitroExpress_HE" or
+            defName="Ammo_600NitroExpress_HE" or
+            defName="Ammo_50JDJ_HE" or
+            defName="Ammo_20x82mmMauser_HE" or
+            defName="Ammo_20x99mmRShVAK_HE" or
+            defName="Ammo_20x102mmNATO_HE" or
+            defName="Ammo_20x110mmHispano_HE" or
+            defName="Ammo_20x128mmOerlikon_HE" or
+            defName="Ammo_20x138mmB_HE" or
+            defName="Ammo_20x139mm_HE" or
+            defName="Ammo_25x137mmNATO_HE" or
+            defName="Ammo_30x113mmB_HE" or
+            defName="Ammo_30x165mm_HE" or
+            defName="Ammo_30x173mmNATO_HE" or
+            defName="Ammo_58x42mmDBP10_HE" or
+            defName="Ammo_65x50mmSRArisaka_HE" or
+            defName="Ammo_75x54mmFrench_HE" or
+            defName="Ammo_77x58mmArisaka_HE" or
+            defName="Ammo_40x311mmR_HE" or
+            defName="Ammo_84x246mmR_HE" or
+            defName="Ammo_130mmType63_HE" or
+            defName="Ammo_132mmM13_HE" or
+            defName="Ammo_15cmNebelwerfer_HE" or
+            defName="Ammo_28cmSpgrShell_HE" or
+            defName="Ammo_37x223mmR_HE" or
+            defName="Ammo_40x365mmBofors_HE" or
+            defName="Ammo_50mmType89MortarShell_HE" or
+            defName="Ammo_57x307mmR_HE" or
+            defName="Ammo_57x483mmBofors_HE" or
+            defName="Ammo_75x350mmR_HE"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>6</MarketValue>
+            </value>
+    </Operation>
+    <!--High Caliber Sabot-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_50BMG_Sabot" or
+            defName="Ammo_55Boys_Sabot" or
+            defName="Ammo_300WinchesterMagnum_Sabot" or
+            defName="Ammo_338Lapua_Sabot" or
+            defName="Ammo_338Norma_Sabot" or
+            defName="Ammo_408CheyenneTactical_Sabot" or
+            defName="Ammo_470NitroExpress_Sabot" or
+            defName="Ammo_600NitroExpress_Sabot" or
+            defName="Ammo_50JDJ_Sabot" or
+            defName="Ammo_65x48mmCreedmoor_Sabot" or
+            defName="Ammo_65x52mmCarcano_Sabot" or
+            defName="Ammo_792x57mmMauser_Sabot" or
+            defName="Ammo_86x43mmBlackout_Sabot" or
+            defName="Ammo_65x50mmSRArisaka_Sabot" or
+            defName="Ammo_75x54mmFrench_Sabot" or
+            defName="Ammo_77x58mmArisaka_Sabot" or
+            defName="Ammo_127x55mm_Sabot" or
+            defName="Ammo_792x94mmPatronen_Sabot" or
+            defName="Ammo_127x108mm_Sabot" or
+            defName="Ammo_132x92mmSRTuF_Sabot" or
+            defName="Ammo_145x114mm_Sabot" or
+            defName="Ammo_152x169mm_Sabot" or
+            defName="Ammo_2Bore_Sabot" or
+            defName="Ammo_20x82mmMauser_Sabot" or
+            defName="Ammo_20x99mmRShVAK_Sabot" or
+            defName="Ammo_20x102mmNATO_Sabot" or
+            defName="Ammo_20x110mmHispano_Sabot" or
+            defName="Ammo_20x128mmOerlikon_Sabot" or
+            defName="Ammo_20x138mmB_Sabot" or
+            defName="Ammo_20x139mm_Sabot" or
+            defName="Ammo_23x152mmB_Sabot" or
+            defName="Ammo_25x137mmNATO_Sabot" or
+            defName="Ammo_30x113mmB_Sabot" or
+            defName="Ammo_30x165mm_Sabot" or
+            defName="Ammo_30x173mmNATO_Sabot" or
+            defName="Ammo_40x311mmR_Sabot" or
+            defName="Ammo_5x100mmCaseless_Sabot" or
+            defName="Ammo_473x33mmCaseless_Sabot" or
+            defName="Ammo_485x49mm_Sabot" or
+            defName="Ammo_40x365mmBofors_Sabot"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>8</MarketValue>
+            </value>
+    </Operation>
+
+    <!--Charged-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_5x16mmCharged" or
+            defName="Ammo_5x35mmCharged" or
+            defName="Ammo_6x18mmCharged" or
+            defName="Ammo_6x22mmCharged" or
+            defName="Ammo_6x24mmCharged" or
+            defName="Ammo_8x35mmCharged" or
+            defName="Ammo_8x40mmCharged" or
+            defName="Ammo_8x50mmCharged" or
+            defName="Ammo_8x50mmCharged_Ion" or
+            defName="Ammo_10x18mmCharged" or
+            defName="Ammo_12GaugeCharged" or
+            defName="Ammo_12GaugeCharged_Slug" or
+            defName="Ammo_12x64mmCharged" or
+            defName="Ammo_12x72mmCharged"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>5</MarketValue>
+            </value>
+    </Operation>
+
+
+    <!--Grenades-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_20x42mmGrenade_HE" or
+            defName="Ammo_25x40mmGrenade_HE" or
+            defName="Ammo_25x59mmGrenade_HE" or
+            defName="Ammo_30x29mmGrenade_HE" or
+            defName="Ammo_35x32mmSRGrenade_HE" or
+            defName="Ammo_40x46mmGrenade_HE" or
+            defName="Ammo_40x47mmGrenade_HE" or
+            defName="Ammo_40x53mmGrenade_HE" or
+            defName="Ammo_40x53mmVOG25Grenade_HE" or
+            defName="Ammo_50mmGS50Grenade_HE" or
+            defName="Ammo_25x40mmGrenade_HE_TFuzed" or
+            defName="Ammo_25x59mmGrenade_HE_TFuzed" or
+            defName="Ammo_30x29mmGrenade_HE_TFuzed" or
+            defName="Ammo_40x46mmGrenade_HE_TFuzed" or
+            defName="Ammo_40x53mmGrenade_HE_TFuzed" or
+            defName="Ammo_40x53mmVOG25Grenade_HE_TFuzed" or
+            defName="Ammo_83mmPIATGrenade_HEAT" or
+            defName="Ammo_83mmPIATGrenade_HE" or
+            defName="Ammo_70mmMechanoidGrenade_HE" or
+            defName="Ammo_70mmMechanoidGrenade_EMP" or
+            defName="Ammo_25x59mmGrenade_HEDP" or
+            defName="Ammo_35x32mmSRGrenade_HEDP" or
+            defName="Ammo_40x46mmGrenade_HEDP" or
+            defName="Ammo_40x53mmGrenade_HEDP"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>15</MarketValue>
+            </value>
+    </Operation>
+
+    <!--Rockets-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_RPG7Grenade_HEAT" or
+            defName="Ammo_RPG32Rocket_HEAT" or
+            defName="Ammo_SPG9Rocket_HEAT" or
+            defName="Ammo_20mmFliegerfaust_HE" or
+            defName="Ammo_50mmRocket_HE" or
+            defName="Ammo_57mmRocket_HE" or
+            defName="Ammo_83mmSMAW_HE" or
+            defName="Ammo_SPG9Rocket_EMP" or
+            defName="Ammo_57mmRocket_HEAT" or
+            defName="Ammo_RPG7Grenade_Frag" or
+            defName="Ammo_SPG9Rocket_Frag" or
+            defName="Ammo_TomahawkLAM" or
+            defName="Ammo_57mmRocket_Thermobaric" or
+            defName="Ammo_83mmSMAW_Thermobaric" or
+            defName="Ammo_RPG7Grenade_Thermobaric" or
+            defName="Ammo_RPG32Rocket_Thermobaric" or
+            defName="Ammo_SPG9Rocket_Thermobaric"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>30</MarketValue>
+            </value>
+    </Operation>
+
+    <!--Cannon Shells-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_90mmCannonShell_HEAT" or
+            defName="Ammo_100x695mmRCannonShell_HEAT" or
+            defName="Ammo_105mmHowitzerShell_HEAT" or
+            defName="Ammo_105x607mmRCannonShell_HEAT" or
+            defName="Ammo_105x617mmRCannonShell_HEAT" or
+            defName="Ammo_120mmCannonShell_HEAT" or
+            defName="Ammo_762x385mmRCannonShell_HEAT" or
+            defName="Ammo_50mmType89MortarShell_Incendiary" or
+            defName="Ammo_105mmHowitzerShell_Incendiary" or
+            defName="Ammo_155mmHowitzerShell_Incendiary" or
+            defName="Ammo_90mmCannonShell_HE_TFuzed" or
+            defName="Ammo_70mmAPKWS_HEAT" or
+            defName="Ammo_83mmSMAW_HEAT" or
+            defName="Ammo_84x246mmR_HEAT" or
+            defName="Ammo_88mmRPzB_HEAT" or
+            defName="Ammo_90mmRCR_HEAT" or
+            defName="Ammo_M6_HEAT" or
+            defName="Ammo_M6A1_HEAT" or
+            defName="Ammo_M6A3_HEAT" or
+            defName="Ammo_132x92mmSRTuF_HE" or
+            defName="Ammo_145x114mm_HE" or
+            defName="Ammo_90mmCannonShell_EMP" or
+            defName="Ammo_105mmHowitzerShell_EMP" or
+            defName="Ammo_155mmHowitzerShell_EMP" or
+            defName="Ammo_762x385mmRCannonShell_EMP" or
+            defName="Ammo_90mmRCR_CAN" or
+            defName="Ammo_50mmType89MortarShell_EMP" or
+            defName="Ammo_M6A3_Incendiary" or
+            defName="Ammo_M74_Incendiary"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>120</MarketValue>
+            </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_20x82mmMauser_Incendiary" or
+            defName="Ammo_20x99mmRShVAK_Incendiary" or
+            defName="Ammo_20x102mmNATO_Incendiary" or
+            defName="Ammo_20x110mmHispano_Incendiary" or
+            defName="Ammo_20x128mmOerlikon_Incendiary" or
+            defName="Ammo_20x138mmB_Incendiary" or
+            defName="Ammo_20x139mm_Incendiary" or
+            defName="Ammo_23x152mmB_Incendiary" or
+            defName="Ammo_25x137mmNATO_Incendiary" or
+            defName="Ammo_30x113mmB_Incendiary" or
+            defName="Ammo_30x165mm_Incendiary" or
+            defName="Ammo_30x173mmNATO_Incendiary" or
+            defName="Ammo_40x311mmR_Incendiary" or
+            defName="Ammo_90mmCannonShell_HE" or
+            defName="Ammo_100x695mmRCannonShell_HE" or
+            defName="Ammo_105mmHowitzerShell_HE" or
+            defName="Ammo_105x607mmRCannonShell_HE" or
+            defName="Ammo_105x617mmRCannonShell_HE" or
+            defName="Ammo_120mmCannonShell_HE" or
+            defName="Ammo_155mmHowitzerShell_HE" or
+            defName="Ammo_762x385mmRCannonShell_HE" or
+            defName="Ammo_762x539mmR_HE" or
+            defName="Ammo_105mmHowitzerShell_HE_HFuzed" or
+            defName="Ammo_105mmHowitzerShell_Smoke" or
+            defName="Ammo_155mmHowitzerShell_HE_HFuzed" or
+            defName="Ammo_155mmHowitzerShell_Smoke" or
+            defName="Ammo_60x225mmGamma_Standard" or
+            defName="Ammo_164x284mmDemo"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>150</MarketValue>
+            </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            defName="Ammo_40x365mmBofors_AP" or
+            defName="Ammo_57x307mmR_AP" or
+            defName="Ammo_75x350mmR_AP" or
+            defName="Ammo_762x539mmR_AP" or
+            defName="Ammo_37x223mmR_AP"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>170</MarketValue>
+            </value>
+    </Operation>
+<!--
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            @ParentName="75FKBase" or
+            @ParentName="8x22mmNambuBase" or
+            @ParentName="9x18mmMakarovBase" or
+            @ParentName="9x19mmParaBase" or
+            @ParentName="9x21mmGyurzaBase" or
+            @ParentName="10mmAutoBase" or
+            @ParentName="13mmGyrojetBase" or
+            @ParentName="22LRBase" or
+            @ParentName="22ShortBase" or
+            @ParentName="25ACPBase" or
+            @ParentName="32ACPBase" or
+            @ParentName="38ACPBase" or
+            @ParentName="38SpecialBase" or
+            @ParentName="38SuperBase" or
+            @ParentName="38SWBase" or
+            @ParentName="40SWBase" or
+            @ParentName="41RimfireBase" or
+            @ParentName="44MagnumBase" or
+            @ParentName="44SWSpecialBase" or
+            @ParentName="45ACPBase" or
+            @ParentName="45ColtBase" or
+            @ParentName="45SchofieldBase" or
+            @ParentName="46x30mmBase" or
+            @ParentName="10GaugeBase" or
+            @ParentName="12GaugeBase" or
+            @ParentName="16GaugeBase" or
+            @ParentName="20GaugeBase" or
+            @ParentName="23x75mmRBase" or
+            @ParentName="410BoreBase"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>10</MarketValue>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            @ParentName="50AEBase" or
+            @ParentName="58x21mmDAP92Base" or
+            @ParentName="357MagnumBase" or
+            @ParentName="357SIGBase" or
+            @ParentName="380ACPBase" or
+            @ParentName="454CasullBase" or
+            @ParentName="455WebleyBase" or
+            @ParentName="460SWMagnumBase" or
+            @ParentName="500SWMagnumBase" or
+            @ParentName="762x25mmTokarevBase" or
+            @ParentName="762x38mmRBase" or
+            @ParentName="763x25mmMauserBase" or
+            @ParentName="765x20mmLongueBase" or
+            @ParentName="FN57x29mmBase" or
+            @ParentName="65x48mmCreedmoorBase" or
+            @ParentName="65x52mmCarcanoBase" or
+            @ParentName="792x57mmMauserBase" or
+            @ParentName="86x43mmBlackoutBase" or
+            @ParentName="8x50mmRLebelBase" or
+            @ParentName="8x50mmRMannlicherBase" or
+            @ParentName="9x39mmSovietBase" or
+            @ParentName="17HMRBase" or
+            @ParentName="22HornetBase" or
+            @ParentName="22WMRBase" or
+            @ParentName="3030WinchesterBase" or
+            @ParentName="30CarbineBase" or
+            @ParentName="3855WinchesterBase" or
+            @ParentName="40WinchesterBase" or
+            @ParentName="50BeowulfBase" or
+            @ParentName="5656SpencerBase" or
+            @ParentName="58x42mmDBP10Base" or
+            @ParentName="65x50mmSRArisakaBase" or
+            @ParentName="75x54mmFrenchBase" or
+            @ParentName="77x58mmArisakaBase" or
+            @ParentName="127x55mmBase" or
+            @ParentName="243WinchesterBase" or
+            @ParentName="277FuryBase" or
+            @ParentName="280BritishBase" or
+            @ParentName="300AACBlackoutBase" or
+            @ParentName="303BritishBase" or
+            @ParentName="458SOCOMBase" or
+            @ParentName="473x33mmCaselessBase" or
+            @ParentName="485x49mmBase" or
+            @ParentName="545x39mmSovietBase" or
+            @ParentName="556x45mmNATOBase" or
+            @ParentName="762x39mmSovietBase" or
+            @ParentName="762x51mmNATOBase" or
+            @ParentName="762x54mmRBase" or
+            @ParentName="792x33mmKurzBase" or
+            @ParentName="3006SpringfieldBase" or
+            @ParentName="4570GovBase" or
+            @ParentName="ChargePistolAmmo" or
+            @ParentName="ChargeRifleAmmo" or
+            @ParentName="HeavyChargeAmmo" or
+            @ParentName="ChargeShotgunAmmo" or
+            @ParentName="5x16mmChargedBase" or
+            @ParentName="5x35mmChargedBase" or
+            @ParentName="SpacerSmallAmmoBase" or
+            @ParentName="6x18mmChargedBase" or
+            @ParentName="6x22mmChargedBase" or
+            @ParentName="6x24mmChargedBase" or
+            @ParentName="8x35mmChargedBase" or
+            @ParentName="8x40mmChargedBase" or
+            @ParentName="8x50mmChargedBase" or
+            @ParentName="10x18mmChargedBase" or
+            @ParentName="12GaugeChargedBase" or
+            @ParentName="12x64mmChargedBase" or
+            @ParentName="12x72mmChargedBase" or
+            @ParentName="20x105mmChargedBase" or
+            @ParentName="66mmThermalBoltBase" or
+            @ParentName="80x256mmFuelBase"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>13</MarketValue>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            @ParentName="30x64mmFuelBase" or
+            @ParentName="20x42mmCartridgeBase" or
+            @ParentName="20x42mmGrenadeBase" or
+            @ParentName="Ammo2BoreBase" or
+            @ParentName="Ammo792x94mmPatronenBase" or
+            @ParentName="Ammo127x108mmBase" or
+            @ParentName="Ammo132x92mmSRTuFBase" or
+            @ParentName="Ammo145x114mmBase" or
+            @ParentName="Ammo152x169mmBase" or
+            @ParentName="Ammo20x82mmMauserBase" or
+            @ParentName="Ammo20x99mmRShVAKBase" or
+            @ParentName="Ammo20x102mmNATOBase" or
+            @ParentName="Ammo20x110mmHispanoBase" or
+            @ParentName="Ammo20x128mmOerlikonBase" or
+            @ParentName="Ammo20x138mmBBase" or
+            @ParentName="Ammo20x139mmBase" or
+            @ParentName="Ammo23x152mmBBase" or
+            @ParentName="Ammo25x137mmNATOBase" or
+            @ParentName="Ammo30x113mmBBase" or
+            @ParentName="Ammo30x165mmBase" or
+            @ParentName="Ammo30x173mmNATOBase" or
+            @ParentName="Ammo40x311mmRBase" or
+            @ParentName="Ammo50BMGBase" or
+            @ParentName="Ammo55BoysBase" or
+            @ParentName="Ammo300WinchesterMagnumBase" or
+            @ParentName="Ammo338LapuaBase" or
+            @ParentName="Ammo338NormaBase" or
+            @ParentName="Ammo408CheyenneTacticalBase" or
+            @ParentName="Ammo470NitroExpressBase" or
+            @ParentName="Ammo600NitroExpressBase" or
+            @ParentName="Ammo950JDJBase" or
+            @ParentName="Ammo_12mmRailgun_Sabot" or
+            @ParentName="LaserChargePackBase" or
+            @ParentName="25x40mmGrenadeBase" or
+            @ParentName="25x59mmGrenadeBase" or
+            @ParentName="30x29mmGrenadeBase" or
+            @ParentName="35x32mmSRGrenadeBase" or
+            @ParentName="40x46mmGrenadeBase" or
+            @ParentName="40x47mmGrenadeBase" or
+            @ParentName="40x53mmGrenadeBase" or
+            @ParentName="40x53mmVOG25GrenadeBase" or
+            @ParentName="50mmGS50GrenadeBase" or
+            @ParentName="83mmPIATGrenadeBase" or
+            @ParentName="5x100mmCaselessBase" or
+            @ParentName="20mmFliegerfaustBase" or
+            @ParentName="50mmRocketBase" or
+            @ParentName="57mmRocketBase" or
+            @ParentName="70mmAPKWSBase" or
+            @ParentName="83mmSMAWBase" or
+            @ParentName="84x246mmRBase" or
+            @ParentName="88mmRPzBRocketBase" or
+            @ParentName="Base90mmRecoillessAmmo" or
+            @ParentName="130mmType63Base" or
+            @ParentName="132mmM13Base" or
+            @ParentName="M6RocketBase" or
+            @ParentName="M6A1RocketBase" or
+            @ParentName="M6A3RocketBase" or
+            @ParentName="M74Base" or
+            @ParentName="RPG7GrenadeBase" or
+            @ParentName="RPG32RocketBase" or
+            @ParentName="SPG9RocketBase" or
+            @ParentName="TomahawkLAMBase" or
+            @ParentName="15cmNebelwerferBase" or
+            @ParentName="28cmSpgrShellBase" or
+            @ParentName="Ammo37x223mmRBase" or
+            @ParentName="Ammo40x365mmBoforsBase" or
+            @ParentName="50mmType89MortarShellBase" or
+            @ParentName="Ammo57x307mmRBase" or
+            @ParentName="Ammo57x483mmBoforsBase"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>16</MarketValue>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+            @ParentName="60mmMortarShellBase" or
+            @ParentName="Ammo75x350mmRBase" or
+            @ParentName="81mmMortarShellBaseCraftableBase" or
+            @ParentName="90mmCannonShellBase" or
+            @ParentName="100x695mmRCannonShellBase" or
+            @ParentName="105mmHowitzerShellBase" or
+            @ParentName="105x607mmRCannonShellBase" or
+            @ParentName="105x617mmRCannonShellBase" or
+            @ParentName="120mmCannonShellBase" or
+            @ParentName="155mmHowitzerShellBase" or
+            @ParentName="762x385mmRCannonShellBase" or
+            @ParentName="762x539mmRBase"
+            ]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>150</MarketValue>
+            </value>
+    </Operation>
+-->
+    
+    <!--Adjust Mechanitor weaponMoney-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="Mechanitor"]/weaponMoney</xpath>
+            <value>
+                <weaponMoney>470~900</weaponMoney>
+            </value>
+    </Operation>
+</Patch>

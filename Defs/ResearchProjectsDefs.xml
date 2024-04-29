@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--Revolver-->
+    <ResearchProjectDef>
+		<defName>CEH_Revolver_Research</defName>
+		<label>Revolvers</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how do craft revolvers</description>
+		<baseCost>1500</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>Gunsmithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>CEH_44_FMJ_Research</defName>
+		<label>.44 FMJ Ammo</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft simple .44 full metal jacket ammunition</description>
+		<baseCost>1000</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>Gunsmithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>CEH_44_AP_Research</defName>
+		<label>.44 AP Ammo</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft advanced .44 armor piercing ammunition</description>
+		<baseCost>2000</baseCost>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>CEH_44_FMJ_Research</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<!--Auto Pistol-->
+	<ResearchProjectDef>
+		<defName>CEH_AutoPistol_Research</defName>
+		<label>Semi-Automatic Pistols</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft semi-automatic pistols</description>
+		<baseCost>1500</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>CEH_Revolver_Research</li>
+			<li>BlowbackOperation</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>CEH_45ACP_FMJ_Research</defName>
+		<label>.45 ACP FMJ Ammo</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft simple .45 ACP full metal jacket ammunition</description>
+		<baseCost>1000</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>Gunsmithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>CEH_45ACP_AP_Research</defName>
+		<label>.45 ACP AP Ammo</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft advanced .45 ACP armor piercing ammunition</description>
+		<baseCost>2000</baseCost>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>CEH_45ACP_FMJ_Research</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<!--Machine Pistol-->
+	<ResearchProjectDef>
+		<defName>CEH_MachinePistol_Research</defName>
+		<label>Machine Pistols</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft fully automatic machine pistols</description>
+		<baseCost>2000</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>4</researchViewY>
+		<prerequisites>
+			<li>CEH_AutoPistol_Research</li>
+			<li>BlowbackOperation</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<!--5.56 Test-->
+	<!--
+	<ResearchProjectDef>
+		<defName>CEH_556_HP_Research</defName>
+		<label>5.56 HP Bullets</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Test</description>
+		<baseCost>100</baseCost>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+		<requiredStudied>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+			<li>Ammo_556x45mmNATO_HP</li>
+		 </requiredStudied>
+	</ResearchProjectDef>
+	-->
+	<!-- 
+		<requiredStudied>
+			<li>Ammo_556x45mmNATO_HP</li>
+		  </requiredStudied>
+		  
+		<modExtensions>
+			<li Class="CombatExtendedHardcore.ResearchProjectItemRequirement">
+				<RequiredThingDef>Ammo_556x45mmNATO_HP</RequiredThingDef>
+				<RequiredAmount>100</RequiredAmount>
+			</li>
+		</modExtensions>
+	-->
+</Defs>

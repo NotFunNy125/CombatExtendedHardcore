@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Combat Extended Hardcore</name>
+    <author>NotFunNy</author>
+    <packageId>NotFunNy.cehardcore</packageId>
+    <description>Makes Industrial Weapons and Ammo rare</description>
+    <modDependencies>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<steamWorkshopUrl>https://github.com/CombatExtended-Continued/CombatExtended</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CombatExtended-Continued/CombatExtended/releases</downloadUrl>
+		</li>
+	</modDependencies>
+    <loadAfter>
+		<li>CETeam.CombatExtended</li>
+        <li>CETeam.CombatExtendedArmors</li>
+        <li>CETeam.CombatExtendedArmory</li>
+        <li>CETeam.CombatExtendedAttachments</li>
+        <li>CETeam.CombatExtendedGuns</li>
+        <li>CETeam.CombatExtendedMelee</li>
+	</loadAfter>
+    <supportedVersions>
+        <li>1.4</li>
+        <li>1.5</li>
+    </supportedVersions>
+</ModMetaData> 

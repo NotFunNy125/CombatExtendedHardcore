@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\ceh_trygenerateammofor_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:ceh_trygenerateammofor_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\harmony_loadoutpropertiesextension_trygenerateammofor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:harmony_loadoutpropertiesextension_trygenerateammofor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CEH_TryGenerateAmmoFor_Patch.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\CEH_TryGenerateAmmoFor_Patch.cs",
+              "RelativeDocumentMoniker": "CEH_TryGenerateAmmoFor_Patch.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\CEH_TryGenerateAmmoFor_Patch.cs",
+              "RelativeToolTip": "CEH_TryGenerateAmmoFor_Patch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T14:21:12.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Harmony_LoadoutPropertiesExtension_TryGenerateAmmoFor.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\Harmony_LoadoutPropertiesExtension_TryGenerateAmmoFor.cs",
+              "RelativeDocumentMoniker": "Harmony_LoadoutPropertiesExtension_TryGenerateAmmoFor.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\Harmony_LoadoutPropertiesExtension_TryGenerateAmmoFor.cs",
+              "RelativeToolTip": "Harmony_LoadoutPropertiesExtension_TryGenerateAmmoFor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T18:12:01.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Temporary 1.5 Anomaly Patch-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_HellcatRifle" or
+            defName="Gun_Incinerator"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Revolver" or
+            defName="CE_GrenadeLauncher"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.2</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Autopistol" or
+            defName="Gun_MachinePistol" or
+            defName="Gun_BoltActionRifle" or
+            defName="Gun_PumpShotgun"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.1</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_HeavySMG" or
+            defName="Gun_ChargeRifle" or
+            defName="Gun_TripleRocket" or
+            defName="Gun_DoomsdayRocket"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.07</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_SniperRifle" or
+            defName="Gun_ChainShotgun" or
+            defName="Gun_LMG" or
+            defName="Gun_AssaultRifle" or
+            defName="Gun_Minigun"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.01</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Guns</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_SWGovernor" or
+                        defName="CE_Gun_ChargePistol"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.2</generateAllowChance>
+					</value>
+				</li>
+
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_RPGSeven" or
+                        defName="CE_Gun_ChargeShotgun" or
+                        defName="CE_Gun_ChargeSMG" or
+                        defName="CE_Gun_Flamethrower"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.1</generateAllowChance>
+					</value>
+				</li>
+
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_USASTwelve" or
+                        defName="CE_Gun_FNFAL" or
+                        defName="CE_Gun_AKM" or
+                        defName="CE_Gun_RPD" or
+                        defName="CE_Gun_PKM" or
+                        defName="CE_Gun_ChargeLMG"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.07</generateAllowChance>
+					</value>
+				</li>
+
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_SVD" or
+                        defName="CE_Gun_HecateTwo" or
+                        defName="CE_Gun_PTRS" or
+                        defName="CE_Gun_MTwoFourNine" or
+                        defName="CE_Gun_MSixty" or
+                        defName="CE_Gun_MilkorMGL" or
+                        defName="CE_Gun_ChargeSniperRifle" or
+                        defName="CE_Gun_ChargeAMR"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.01</generateAllowChance>
+					</value>
+				</li>
+
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Armory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_FNFiveSeven" or
+                        defName="CE_Gun_HandMortar" or
+                        defName="CE_Gun_KelTecCPThirtyThree" or
+                        defName="CE_Gun_KSTwentyThree" or
+                        defName="CE_Gun_M1Garand"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.2</generateAllowChance>
+					</value>
+				</li>
+
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_AKSSeventyFourU" or
+                        defName="CE_Gun_AmericanOneEighty" or
+                        defName="CE_Gun_AVB" or
+                        defName="CE_Gun_BAR" or
+                        defName="CE_Gun_DPtwentySeven" or
+                        defName="CE_Gun_PNinety" or
+                        defName="CE_Gun_M1903Springfield" or
+                        defName="CE_Gun_MicroUzi" or
+                        defName="CE_Gun_SKS" or
+                        defName="CE_Gun_Uzi"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.1</generateAllowChance>
+					</value>
+				</li>
+
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_AKTwelve" or
+                        defName="CE_Gun_Deagke" or
+                        defName="CE_Gun_Lewis" or
+                        defName="CE_Gun_MadsenLMG" or
+                        defName="CE_Gun_SigMCX" or
+                        defName="CE_Gun_RPKSixteen" or
+                        defName="CE_Gun_TavorSeven" or
+                        defName="CE_Gun_WallGun" or
+                        defName="CE_Gun_MiniFourteen"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.07</generateAllowChance>
+					</value>
+				</li>
+
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+                        defName="CE_Gun_AK74GL" or
+                        defName="CE_ATFour" or
+                        defName="CE_Gun_FightLiteMCR" or
+                        defName="CE_Gun_KordPortable" or
+                        defName="CE_Gun_MSeven" or
+                        defName="CE_Gun_MTwoFifty" or
+                        defName="CE_Gun_MGThreeThreeEight" or
+                        defName="CE_Gun_SRTweintyFive" or
+                        defName="CE_Gun_SRS" or
+                        defName="CE_Gun_TacFifty"
+						]</xpath>
+					<value>
+						<generateAllowChance>0.01</generateAllowChance>
+					</value>
+				</li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>
