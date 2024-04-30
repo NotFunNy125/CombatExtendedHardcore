@@ -103,6 +103,21 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
+	<!--Bolt-Action Rifle-->
+	<ResearchProjectDef>
+		<defName>CEH_BoltActionRifles_Research</defName>
+		<label>Bolt-action Rifles</label>
+		<tab>Weapons</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Learn how to craft old bolt-action rifles</description>
+		<baseCost>2000</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	
 	<!--5.56 Test-->
 	<!--
 	<ResearchProjectDef>

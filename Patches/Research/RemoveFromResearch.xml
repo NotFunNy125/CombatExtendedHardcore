@@ -6,26 +6,7 @@
         <xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
     </Operation>
 
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[
-            defName="Gun_BoltActionRifle" or
-            defName="Gun_PumpShotgun" or
-            defName="Gun_ChainShotgun" or
-            defName="Gun_HeavySMG" or
-            defName="Gun_LMG" or
-            defName="Gun_AssaultRifle" or
-            defName="Gun_SniperRifle" or
-            defName="Gun_Minigun" or
-            defName="Gun_ChargeRifle" or
-            defName="Gun_ChargeLance" or
-            defName="Gun_TripleRocket" or
-            defName="Gun_DoomsdayRocket" or
-            defName="Gun_IncendiaryLauncher"
-            ]/recipeMaker/researchPrerequisite</xpath>
-    </Operation>
-
     <!--Combat Extended-->
-
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="CE_GrenadeLauncher"]/recipeMaker/researchPrerequisite</xpath>
     </Operation>
@@ -82,82 +63,5 @@
         <xpath>Defs/RecipeDef[@ParentName="LauncherAmmoRecipeBase"]/researchPrerequisites</xpath>
     </Operation>
 
-    <Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended Guns</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[
-                        defName="CE_Gun_AKM" or
-                        defName="CE_Gun_FNFAL" or
-                        defName="CE_Gun_HecateTwo" or
-                        defName="CE_Gun_MTwoFourNine" or
-                        defName="CE_Gun_MSixty" or
-                        defName="CE_Gun_PKM" or
-                        defName="CE_Gun_RPD" or
-                        defName="CE_Gun_SVD" or
-                        defName="CE_Gun_USASTwelve" or
-                        defName="CE_Gun_PTRS"
-						]/recipeMaker/researchPrerequisite</xpath>
-                </li>
-            </operations>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended Armory</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[
-                        defName="CE_Gun_AKTwelve" or
-                        defName="CE_Gun_AK74GL" or
-                        defName="CE_Gun_AKSSeventyFourU" or
-                        defName="CE_Gun_AmericanOneEighty" or
-                        defName="CE_ATFour" or
-                        defName="CE_Gun_AVB" or
-                        defName="CE_Gun_BAR" or
-                        defName="CE_Gun_Deagke" or
-                        defName="CE_Gun_DPtwentySeven" or
-                        defName="CE_Gun_FightLiteMCR" or
-                        defName="CE_Gun_FNFiveSeven" or
-                        defName="CE_Gun_PNinety" or
-                        defName="CE_Gun_Jericho" or
-                        defName="CE_Gun_KelTecCPThirtyThree" or
-                        defName="CE_Gun_KordPortable" or
-                        defName="CE_Gun_Lewis" or
-                        defName="CE_Gun_MSeven" or
-                        defName="CE_Gun_MTwoFifty" or
-                        defName="CE_Gun_M1903Springfield" or
-                        defName="CE_Gun_M1917Enfield" or
-                        defName="CE_Gun_MadsenLMG" or
-                        defName="CE_Gun_SigMCX" or
-                        defName="CE_Gun_MGThreeThreeEight" or
-                        defName="CE_Gun_MiniFourteen" or
-                        defName="CE_Gun_RPKSixteen" or
-                        defName="CE_Gun_SKS" or
-                        defName="CE_Gun_SRTweintyFive" or
-                        defName="CE_Gun_SRS" or
-                        defName="CE_Gun_TacFifty" or
-                        defName="CE_Gun_TavorSeven" or
-                        defName="CE_Gun_WallGun" or
-                        defName="CE_Gun_HenrySideGate" or
-                        defName="CE_Gun_TaurusJudge"
-						]/recipeMaker/researchPrerequisite</xpath>
-                </li>
-
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[
-                        defName="CE_Gun_MTwoFifty" or
-                        defName="CE_Gun_MSeven" or
-                        defName="CE_Gun_MGThreeThreeEight"
-						]/recipeMaker/researchPrerequisites</xpath>
-                </li>
-            </operations>
-        </match>
-    </Operation>
+    
 </Patch>

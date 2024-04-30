@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Revolver" or
+            defName="Gun_PumpShotgun"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.2</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Autopistol" or
+            defName="Gun_MachinePistol" or
+            defName="Gun_BoltActionRifle" or
+            defName="CE_GrenadeLauncher"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.1</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_HeavySMG"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.07</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_ChargeRifle" or
+            defName="Gun_ChainShotgun"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.05</generateAllowChance>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_SniperRifle" or
+            defName="Gun_LMG" or
+            defName="Gun_AssaultRifle" or
+            defName="Gun_Minigun" or
+            defName="Gun_TripleRocket" or
+            defName="Gun_DoomsdayRocket"
+            ]</xpath>
+            <value>
+                <generateAllowChance>0.01</generateAllowChance>
+            </value>
+    </Operation>
+</Patch>

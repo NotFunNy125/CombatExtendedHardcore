@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[
+            defName="MakeFlashbangGrenade" or
+            defName="MakeSmokeGrenade"
+            ]</xpath>
+            <value>
+                <recipeUsers>
+                    <li>TableMachining</li>
+                </recipeUsers>
+            </value>
+    </Operation>
+</Patch>

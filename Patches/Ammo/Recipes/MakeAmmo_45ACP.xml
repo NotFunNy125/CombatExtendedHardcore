@@ -218,4 +218,25 @@
                 <workAmount>2000</workAmount>
             </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_AutoPistol_Research</researchPrerequisite>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_45ACP_FMJ_Research</researchPrerequisite>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_AP"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_45ACP_AP_Research</researchPrerequisite>
+            </value>
+    </Operation>
 </Patch>

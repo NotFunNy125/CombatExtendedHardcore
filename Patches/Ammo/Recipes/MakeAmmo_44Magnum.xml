@@ -218,4 +218,25 @@
                 <workAmount>2000</workAmount>
             </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_Revolver_Research</researchPrerequisite>
+            </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_44_FMJ_Research</researchPrerequisite>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_44_AP_Research</researchPrerequisite>
+            </value>
+    </Operation>
 </Patch>

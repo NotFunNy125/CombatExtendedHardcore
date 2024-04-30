@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Armory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_TaurusJudge" or
+                        defName="CE_Gun_Uzi" or
+                        defName="CE_Gun_MicroUzi" or
+                        defName="CE_Gun_MosinNagant" or
+                        defName="CE_Gun_WinchesterEightySix" or
+                        defName="CE_Gun_BigBoy" or
+                        defName="CE_Gun_M1Garand"
+						]/recipeMaker</xpath>
+                        <value>
+                            <recipeUsers>
+                                <li>TableMachining</li>
+                            </recipeUsers>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

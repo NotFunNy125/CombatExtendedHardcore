@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Armory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>            
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_M1903Springfield" or
+                        defName="CE_Gun_M1917Enfield" or
+                        defName="CE_Gun_MosinNagant"
+						]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>CEH_BoltActionRifles_Research</researchPrerequisite>
+                        </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_BigBoy" or
+                        defName="CE_Gun_WinchesterEightySix"
+						]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>CEH_LeverActionRifles_Research</researchPrerequisite>
+                        </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_M1Garand"
+						]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>CEH_SemiAutomaticRifles_Research</researchPrerequisite>
+                        </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_MicroUzi" or
+                        defName="CE_Gun_Uzi"
+						]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>CEH_MachinePistol_Research</researchPrerequisite>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

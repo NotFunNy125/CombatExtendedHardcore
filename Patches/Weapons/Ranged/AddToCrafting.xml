@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Revolver" or
+            defName="Gun_MachinePistol" or
+            defName="Gun_Autopistol" or
+            defName="CE_FlareGun" or
+            defName="Gun_BoltActionRifle"
+            ]/recipeMaker</xpath>
+            <value>
+                <recipeUsers>
+                    <li>TableMachining</li>
+                </recipeUsers>
+            </value>
+    </Operation>
+</Patch>

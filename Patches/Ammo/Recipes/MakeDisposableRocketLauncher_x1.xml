@@ -39,4 +39,13 @@
                 <MarketValue>180</MarketValue>
             </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeDisposableRocketLauncher_x1"]</xpath>
+            <value>
+                <recipeUsers>
+                    <li>TableMachining</li>
+                  </recipeUsers>
+            </value>
+    </Operation>
 </Patch>

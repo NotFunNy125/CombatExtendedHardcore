@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Guns</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_SWGovernor"
+						]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>CEH_Revolver_Research</researchPrerequisite>
+                        </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_WinchesterNintyFour"
+						]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>CEH_BoltActionRifles_Research</researchPrerequisite>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
