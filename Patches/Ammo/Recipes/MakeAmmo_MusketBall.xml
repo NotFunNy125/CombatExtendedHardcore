@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust Musket Ball label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/label</xpath>
+            <value>
+                <label>make musket ball x50</label>
+            </value>
+    </Operation>
+    <!--Adjust Musket Ball description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/description</xpath>
+            <value>
+                <description>Craft 50 musket balls.</description>
+            </value>
+    </Operation>
+    <!--Adjust Musket Ball ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>25</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust Musket Ball fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust Musket Ball products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_MusketBall>50</Ammo_MusketBall>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust Musket Ball workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/workAmount</xpath>
+            <value>
+                <workAmount>1500</workAmount>
+            </value>
+    </Operation>
+</Patch>

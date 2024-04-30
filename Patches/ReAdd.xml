@@ -149,16 +149,7 @@
                             <researchPrerequisite>CEH_BoltActionRifles_Research</researchPrerequisite>
                         </value>
                 </li>
-            </operations>
-        </match>
-    </Operation>
 
-    <Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended Guns</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[
                         defName="CE_Gun_SWGovernor" or

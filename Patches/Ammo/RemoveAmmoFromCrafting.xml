@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+        <Operation Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[
+                @ParentName="AmmoBase" or
+                @ParentName="SmallAmmoBase" or
+                @ParentName="SpacerSmallAmmoBase" or
+                @ParentName="SpacerAmmoBase" or
+                @ParentName="SpacerMediumAmmoBase" or
+                @ParentName="MediumAmmoBase" or
+                @ParentName="HeavyAmmoBase" or
+                @ParentName="81mmMortarShellBase"
+                ]/tradeTags/li[text()="CE_AutoEnableCrafting"]</xpath>
+        </Operation>
+    
+        <Operation Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[
+                @ParentName="AmmoBase" or
+                @ParentName="SmallAmmoBase" or
+                @ParentName="SpacerSmallAmmoBase" or
+                @ParentName="SpacerAmmoBase" or
+                @ParentName="SpacerMediumAmmoBase" or
+                @ParentName="MediumAmmoBase" or
+                @ParentName="HeavyAmmoBase" or
+                @ParentName="81mmMortarShellBase"
+                ]/tradeTags/li[text()="CE_AutoEnableCrafting_FabricationBench"]</xpath>
+        </Operation>
+    
+        <Operation Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[
+                @ParentName="AmmoBase" or
+                @ParentName="SmallAmmoBase" or
+                @ParentName="SpacerSmallAmmoBase" or
+                @ParentName="SpacerAmmoBase" or
+                @ParentName="SpacerMediumAmmoBase" or
+                @ParentName="MediumAmmoBase" or
+                @ParentName="HeavyAmmoBase" or
+                @ParentName="81mmMortarShellBase"
+                ]/tradeTags/li[text()="CE_AutoEnableCrafting_TableMachining"]</xpath>
+        </Operation>
+</Patch>

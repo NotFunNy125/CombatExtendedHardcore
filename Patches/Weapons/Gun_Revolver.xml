@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust Revolver-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_Revolver"]/costList</xpath>
+            <value>
+                <costList>
+                    <Steel>100</Steel>
+                    <ComponentIndustrial>2</ComponentIndustrial>
+                    <WoodLog>25</WoodLog>
+                </costList>
+            </value>
+    </Operation>
+</Patch>

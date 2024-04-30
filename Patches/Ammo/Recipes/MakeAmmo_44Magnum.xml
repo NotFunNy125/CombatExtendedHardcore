@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust .44 HP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]/label</xpath>
+            <value>
+                <label>make .44 Magnum (HP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .44 HP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]/description</xpath>
+            <value>
+                <description>Craft 20 .44 Magnum (HP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .44 HP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .44 HP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .44 HP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_44Magnum_HP>20</Ammo_44Magnum_HP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .44 HP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust .44 FMJ label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]/label</xpath>
+            <value>
+                <label>make .44 Magnum (FMJ) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .44 FMJ description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]/description</xpath>
+            <value>
+                <description>Craft 20 .44 Magnum (FMJ) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .44 FMJ ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Silver</li>
+                            </thingDefs>
+                        </filter>
+                        <count>0.5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .44 FMJ fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Silver</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .44 FMJ products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_44Magnum_FMJ>20</Ammo_44Magnum_FMJ>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .44 FMJ workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_FMJ"]/workAmount</xpath>
+            <value>
+                <workAmount>1500</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust .44 AP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]/label</xpath>
+            <value>
+                <label>make .44 Magnum (AP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .44 AP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]/description</xpath>
+            <value>
+                <description>Craft 20 .44 Magnum (AP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .44 AP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>75</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Uranium</li>
+                            </thingDefs>
+                        </filter>
+                        <count>5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .44 AP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .44 AP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_44Magnum_AP>20</Ammo_44Magnum_AP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .44 AP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_44Magnum_AP"]/workAmount</xpath>
+            <value>
+                <workAmount>2000</workAmount>
+            </value>
+    </Operation>
+</Patch>

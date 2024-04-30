@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust .45 ACP HP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]/label</xpath>
+            <value>
+                <label>make .45 ACP (HP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP HP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]/description</xpath>
+            <value>
+                <description>Craft 20 .45 ACP (HP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP HP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>70</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP HP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP HP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_45ACP_HP>20</Ammo_45ACP_HP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP HP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust .45 ACP FMJ label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]/label</xpath>
+            <value>
+                <label>make .45 ACP (FMJ) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP FMJ description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]/description</xpath>
+            <value>
+                <description>Craft 20 .45 ACP (FMJ) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP FMJ ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>70</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Silver</li>
+                            </thingDefs>
+                        </filter>
+                        <count>0.5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP FMJ fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Silver</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP FMJ products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_45ACP_FMJ>20</Ammo_45ACP_FMJ>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP FMJ workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_FMJ"]/workAmount</xpath>
+            <value>
+                <workAmount>1500</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust .45 ACP AP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_AP"]/label</xpath>
+            <value>
+                <label>make .45 ACP (AP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP AP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_AP"]/description</xpath>
+            <value>
+                <description>Craft 20 .45 ACP (AP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP AP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_AP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>75</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Uranium</li>
+                            </thingDefs>
+                        </filter>
+                        <count>5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP AP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_AP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP AP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45ACP_AP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_45ACP_AP>20</Ammo_45ACP_AP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .45 ACP AP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>2000</workAmount>
+            </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust Blunderbuss Shot label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/label</xpath>
+            <value>
+                <label>make blunderbuss shot x40</label>
+            </value>
+    </Operation>
+    <!--Adjust Blunderbuss Shot description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/description</xpath>
+            <value>
+                <description>Craft 40 blunderbuss shots.</description>
+            </value>
+    </Operation>
+    <!--Adjust Blunderbuss Shot ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>25</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust Blunderbuss Shot fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust Blunderbuss Shot products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_BlunderbussShot>40</Ammo_BlunderbussShot>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust Blunderbuss Shot workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/workAmount</xpath>
+            <value>
+                <workAmount>1500</workAmount>
+            </value>
+    </Operation>
+</Patch>

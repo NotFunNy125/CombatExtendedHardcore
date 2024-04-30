@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust .45 Colt HP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/label</xpath>
+            <value>
+                <label>make .45 Colt (HP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt HP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/description</xpath>
+            <value>
+                <description>Craft 20 .45 Colt (HP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt HP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>70</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt HP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt HP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_45Colt_HP>20</Ammo_45Colt_HP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt HP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust .45 Colt FMJ label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_FMJ"]/label</xpath>
+            <value>
+                <label>make .45 Colt (FMJ) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt FMJ description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_FMJ"]/description</xpath>
+            <value>
+                <description>Craft 20 .45 Colt (FMJ) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt FMJ ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_FMJ"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>70</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Silver</li>
+                            </thingDefs>
+                        </filter>
+                        <count>0.5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt FMJ fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_FMJ"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Silver</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt FMJ products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_FMJ"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_45Colt_FMJ>20</Ammo_45Colt_FMJ>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .45 Colt FMJ workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_45Colt_FMJ"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+</Patch>

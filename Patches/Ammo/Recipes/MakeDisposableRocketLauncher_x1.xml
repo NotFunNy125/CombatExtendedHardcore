@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust Disposable Rocekt Launcher ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeDisposableRocketLauncher_x1"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>100</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>ComponentIndustrial</li>
+                            </thingDefs>
+                        </filter>
+                        <count>2</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>2</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust Disposable Rocekt Launcher MarketValue-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/statBases/MarketValue</xpath>
+            <value>
+                <MarketValue>180</MarketValue>
+            </value>
+    </Operation>
+</Patch>

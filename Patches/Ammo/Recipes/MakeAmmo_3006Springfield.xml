@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust .30-06 Springfield HP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/label</xpath>
+            <value>
+                <label>make .30-06 Springfield Cartridge (HP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust .30-06 Springfield HP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/description</xpath>
+            <value>
+                <description>Craft 20 .30-06 Springfield Cartridge (HP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust .30-06 Springfield HP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust .30-06 Springfield HP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust .30-06 Springfield HP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_3006Springfield_HP>20</Ammo_3006Springfield_HP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust .30-06 Springfield HP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+</Patch>

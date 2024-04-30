@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust 9x19 HP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_HP"]/label</xpath>
+            <value>
+                <label>make 9x19mm Parabellum (HP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 HP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_HP"]/description</xpath>
+            <value>
+                <description>Craft 20 9x19mm Parabellum (HP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 HP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_HP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 HP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_HP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 HP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_HP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_9x19mmPara_HP>20</Ammo_9x19mmPara_HP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 HP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust 9x19 FMJ label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_FMJ"]/label</xpath>
+            <value>
+                <label>make 9x19mm Parabellum (FMJ) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 FMJ description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_FMJ"]/description</xpath>
+            <value>
+                <description>Craft 20 9x19mm Parabellum (FMJ) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 FMJ ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_FMJ"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Silver</li>
+                            </thingDefs>
+                        </filter>
+                        <count>0.5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 FMJ fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_FMJ"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Silver</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 FMJ products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_FMJ"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_9x19mmPara_FMJ>20</Ammo_9x19mmPara_FMJ>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 FMJ workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_FMJ"]/workAmount</xpath>
+            <value>
+                <workAmount>1500</workAmount>
+            </value>
+    </Operation>
+
+    <!--Adjust 9x19 AP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_AP"]/label</xpath>
+            <value>
+                <label>make 9x19mm Parabellum (AP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 AP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_AP"]/description</xpath>
+            <value>
+                <description>Craft 20 9x19mm Parabellum (AP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 AP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_AP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>75</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Uranium</li>
+                            </thingDefs>
+                        </filter>
+                        <count>5</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 AP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_AP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 AP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_AP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_9x19mmPara_AP>20</Ammo_9x19mmPara_AP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust 9x19 AP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_9x19mmPara_AP"]/workAmount</xpath>
+            <value>
+                <workAmount>2000</workAmount>
+            </value>
+    </Operation>
+</Patch>
