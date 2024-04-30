@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="CETeam.CombatExtendedGuns">ModPatches/Combat Extended Guns</li>
+    <li IfModActive="CETeam.CombatExtendedArmory">ModPatches/Combat Extended Armory</li>
+  </v1.5>
+</loadFolders>
