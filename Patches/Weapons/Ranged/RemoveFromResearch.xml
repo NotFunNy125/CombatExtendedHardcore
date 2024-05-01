@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+   <!--
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[
-            defName="Gun_BoltActionRifle" or
-            defName="Gun_PumpShotgun" or
+            defName="Gun_PumpShotgun"
+            ]/researchPrerequisite</xpath>
+    </Operation>
+ 
+    or
             defName="Gun_ChainShotgun" or
             defName="Gun_HeavySMG" or
             defName="Gun_LMG" or
             defName="Gun_AssaultRifle" or
             defName="Gun_SniperRifle" or
-            defName="Gun_Minigun" or
-            defName="Gun_ChargeRifle" or
-            defName="Gun_ChargeLance" or
             defName="Gun_TripleRocket" or
             defName="Gun_DoomsdayRocket" or
             defName="Gun_IncendiaryLauncher"
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Minigun" or
+            defName="Gun_ChargeRifle" or
+            defName="Gun_ChargeLance"
             ]/recipeMaker/researchPrerequisite</xpath>
     </Operation>
+    -->
 </Patch>

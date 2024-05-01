@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust 303British HP label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/label</xpath>
+            <value>
+                <label>make .303 British (HP) cartridge x20</label>
+            </value>
+    </Operation>
+    <!--Adjust 303British HP description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/description</xpath>
+            <value>
+                <description>Craft 20 .303 British (HP) cartridges.</description>
+            </value>
+    </Operation>
+    <!--Adjust 303British HP ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust 303British HP fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust 303British HP products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_303British_HP>20</Ammo_303British_HP>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust 303British HP workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/workAmount</xpath>
+            <value>
+                <workAmount>1200</workAmount>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]</xpath>
+            <value>
+                <researchPrerequisite>CEH_BoltActionRifles_Research</researchPrerequisite>
+            </value>
+    </Operation>
+</Patch>

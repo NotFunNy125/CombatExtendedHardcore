@@ -21,8 +21,8 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/recipeMaker</xpath>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/recipeMaker/researchPrerequisite</xpath>
         <value>
             <researchPrerequisite>CEH_BoltActionRifles_Research</researchPrerequisite>
         </value>

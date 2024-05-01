@@ -7,7 +7,8 @@
             defName="MakeAmmo_44Magnum_AP" or
             defName="MakeAmmo_45ACP_HP" or
             defName="MakeAmmo_45ACP_FMJ" or
-            defName="MakeAmmo_45ACP_AP"
+            defName="MakeAmmo_45ACP_AP" or
+            defName="MakeAmmo_303British_HP"
             ]</xpath>
             <value>
                 <recipeUsers>
