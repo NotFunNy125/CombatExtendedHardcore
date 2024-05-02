@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
+    </Operation>
+    <!--
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[@ParentName="BaseHumanMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
+    </Operation>
+ -->
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[
+            defName="Gun_PumpShotgun"or
+            defName="Gun_ChainShotgun" or
+            defName="Gun_HeavySMG" or
+            defName="Gun_LMG" or
+            defName="Gun_AssaultRifle" or
+            defName="Gun_SniperRifle" or
+            defName="Gun_Minigun" or
+            defName="Gun_ChargeRifle" or
+            defName="Gun_ChargeLance" or
+            defName="Gun_DoomsdayRocket" or
+            defName="Gun_TripleRocket"
+            ]/recipeMaker/researchPrerequisite</xpath>
+    </Operation>
+
+     <!--
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[
+            defName="Gun_IncendiaryLauncher" or
+            defName="Gun_SmokeLauncher" or
+            defName="Gun_EmpLauncher"
+            ]/recipeMaker/researchPrerequisite</xpath>
+    </Operation>
+   -->
+</Patch>

@@ -66,11 +66,4 @@
                 <workAmount>1200</workAmount>
             </value>
     </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]</xpath>
-            <value>
-                <researchPrerequisite>CEH_BoltActionRifles_Research</researchPrerequisite>
-            </value>
-    </Operation>
 </Patch>
