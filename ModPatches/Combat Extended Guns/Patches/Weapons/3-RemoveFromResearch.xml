@@ -17,7 +17,10 @@
                         defName="CE_Gun_RPD" or
                         defName="CE_Gun_SVD" or
                         defName="CE_Gun_USASTwelve" or
-                        defName="CE_Gun_PTRS"
+                        defName="CE_Gun_PTRS" or
+                        defName="CE_Gun_MilkorMGL" or
+                        defName="CE_Gun_Flamethrower" or
+                        defName="CE_Gun_RPGSeven"
 						]/recipeMaker/researchPrerequisite</xpath>
                 </li>
             </operations>

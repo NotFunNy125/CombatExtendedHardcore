@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <!--Adjust 303British HP label-->
+    <!--Adjust Mortar Grenade label-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/label</xpath>
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/label</xpath>
             <value>
-                <label>make .303 British (HP) cartridge x20</label>
+                <label>Make Mortar Grenade x6</label>
             </value>
     </Operation>
-    <!--Adjust 303British HP description-->
+    <!--Adjust Mortar Grenade description-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/description</xpath>
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/description</xpath>
             <value>
-                <description>Craft 20 .303 British (HP) cartridges.</description>
+                <description>Craft 6 Mortar Grenades</description>
             </value>
     </Operation>
-    <!--Adjust 303British HP ingredients-->
+    <!--Adjust Mortar Grenade ingredients-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/ingredients</xpath>
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/ingredients</xpath>
             <value>
                 <ingredients>
                     <li>
@@ -25,7 +25,7 @@
                                 <li>Steel</li>
                             </thingDefs>
                         </filter>
-                        <count>60</count>
+                        <count>40</count>
                     </li>
                     <li>
                         <filter>
@@ -33,14 +33,14 @@
                                 <li>FSX</li>
                             </thingDefs>
                         </filter>
-                        <count>1</count>
+                        <count>2</count>
                     </li>
                 </ingredients>
             </value>
     </Operation>
-    <!--Adjust 303British HP fixedIngredientFilter-->
+    <!--Adjust Mortar Grenade fixedIngredientFilter-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/fixedIngredientFilter</xpath>
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/fixedIngredientFilter</xpath>
             <value>
                 <fixedIngredientFilter>
                     <thingDefs>
@@ -50,20 +50,20 @@
                 </fixedIngredientFilter>
             </value>
     </Operation>
-    <!--Adjust 303British HP products-->
+    <!--Adjust Mortar Grenade products-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/products</xpath>
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/products</xpath>
             <value>
                 <products>
-                    <Ammo_303British_HP>20</Ammo_303British_HP>
+                    <Ammo_MortarGrenade>6</Ammo_MortarGrenade>
                 </products>
             </value>
     </Operation>
-    <!--Adjust 303British HP workAmount-->
+    <!--Adjust Mortar Grenade workAmount-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/workAmount</xpath>
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/workAmount</xpath>
             <value>
-                <workAmount>1200</workAmount>
+                <workAmount>1500</workAmount>
             </value>
     </Operation>
 </Patch>
