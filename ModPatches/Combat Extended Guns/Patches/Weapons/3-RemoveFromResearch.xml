@@ -20,7 +20,13 @@
                         defName="CE_Gun_PTRS" or
                         defName="CE_Gun_MilkorMGL" or
                         defName="CE_Gun_Flamethrower" or
-                        defName="CE_Gun_RPGSeven"
+                        defName="CE_Gun_RPGSeven" or
+                        defName="CE_Gun_ChargePistol" or
+                        defName="CE_Gun_ChargeShotgun" or
+                        defName="CE_Gun_ChargeSMG" or
+                        defName="CE_Gun_ChargeSniperRifle" or
+                        defName="CE_Gun_ChargeLMG" or
+                        defName="CE_Gun_ChargeAMR"
 						]/recipeMaker/researchPrerequisite</xpath>
                 </li>
             </operations>
