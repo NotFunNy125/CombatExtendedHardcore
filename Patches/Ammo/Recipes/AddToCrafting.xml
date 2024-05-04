@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[
+            defName="MakeAmmo_44Magnum_HP" or
+            defName="MakeAmmo_44Magnum_FMJ" or
+            defName="MakeAmmo_44Magnum_AP" or
+            defName="MakeAmmo_45ACP_HP" or
+            defName="MakeAmmo_45ACP_FMJ" or
+            defName="MakeAmmo_45ACP_AP" or
+            defName="MakeAmmo_303British_HP"
+            ]</xpath>
+            <value>
+                <recipeUsers>
+                    <li>AmmoBench</li>
+                </recipeUsers>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Guns</li>
+		</mods>
+		<match Class="PatchOperationSequence">            
+			<operations>
+                <!--
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[
+                        defName="MakeAmmo_CannonBall_Round" or
+                        defName="MakeAmmo_CannonBall_Bursting" or
+                        defName="MakeAmmo_CannonBall_Incendiary" or
+                        defName="MakeAmmo_CannonBall_Grape" or
+                        defName="MakeAmmo_MiniCannonBall_Round" or
+                        defName="MakeAmmo_MiniCannonBall_Grape" or
+                        defName="MakeAmmo_MortarGrenade" or
+                        ]</xpath>
+                        <value>
+                            <recipeUsers>
+                                <li></li>
+                            </recipeUsers>
+                        </value>
+                </li>
+                -->
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Armory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[
+                        defName="MakeAmmo_9x19mmPara_HP" or
+                        defName="MakeAmmo_9x19mmPara_FMJ" or
+                        defName="MakeAmmo_9x19mmPara_AP" or
+                        defName="MakeAmmo_762x54mmR_HP" or
+                        defName="MakeAmmo_45Colt_HP" or
+                        defName="MakeAmmo_4570Gov_HP" or
+                        defName="MakeAmmo_45Colt_FMJ" or
+                        defName="MakeAmmo_3006Springfield_HP"
+                        ]</xpath>
+                        <value>
+                            <recipeUsers>
+                                <li>AmmoBench</li>
+                            </recipeUsers>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

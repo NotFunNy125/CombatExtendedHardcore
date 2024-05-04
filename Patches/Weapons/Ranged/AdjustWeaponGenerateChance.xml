@@ -7,7 +7,7 @@
             defName="Gun_Incinerator"
             ]</xpath>
             <value>
-                <generateAllowChance>0.000001</generateAllowChance>
+                <generateAllowChance>0.01</generateAllowChance>
             </value>
     </Operation>
 

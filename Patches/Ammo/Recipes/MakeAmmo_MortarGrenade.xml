@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--Adjust Mortar Grenade label-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/label</xpath>
+            <value>
+                <label>Make Mortar Grenade x6</label>
+            </value>
+    </Operation>
+    <!--Adjust Mortar Grenade description-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/description</xpath>
+            <value>
+                <description>Craft 6 Mortar Grenades</description>
+            </value>
+    </Operation>
+    <!--Adjust Mortar Grenade ingredients-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/ingredients</xpath>
+            <value>
+                <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>Steel</li>
+                            </thingDefs>
+                        </filter>
+                        <count>40</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>FSX</li>
+                            </thingDefs>
+                        </filter>
+                        <count>2</count>
+                    </li>
+                </ingredients>
+            </value>
+    </Operation>
+    <!--Adjust Mortar Grenade fixedIngredientFilter-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/fixedIngredientFilter</xpath>
+            <value>
+                <fixedIngredientFilter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </fixedIngredientFilter>
+            </value>
+    </Operation>
+    <!--Adjust Mortar Grenade products-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/products</xpath>
+            <value>
+                <products>
+                    <Ammo_MortarGrenade>6</Ammo_MortarGrenade>
+                </products>
+            </value>
+    </Operation>
+    <!--Adjust Mortar Grenade workAmount-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/workAmount</xpath>
+            <value>
+                <workAmount>1500</workAmount>
+            </value>
+    </Operation>
+</Patch>
