@@ -5,11 +5,29 @@
 			<li>Combat Extended Armory</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<operations>            
-                <li Class="PatchOperationReplace">
+			<operations>    
+                <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[
                         defName="CE_Gun_M1903Springfield" or
-                        defName="CE_Gun_M1917Enfield" or
+                        defName="CE_Gun_M1917Enfield"
+						]/recipeMaker/researchPrerequisite</xpath>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                        defName="CE_Gun_M1903Springfield" or
+                        defName="CE_Gun_M1917Enfield"
+						]</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>CEH_BoltActionRifles_Research</li>
+                                <li>PrecisionRifling</li>
+                            </researchPrerequisites>
+                        </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
                         defName="CE_Gun_MosinNagant"
 						]/recipeMaker/researchPrerequisite</xpath>
                         <value>

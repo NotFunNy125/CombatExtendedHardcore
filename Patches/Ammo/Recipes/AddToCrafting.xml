@@ -23,24 +23,6 @@
 		</mods>
 		<match Class="PatchOperationSequence">            
 			<operations>
-                <!--
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs/RecipeDef[
-                        defName="MakeAmmo_CannonBall_Round" or
-                        defName="MakeAmmo_CannonBall_Bursting" or
-                        defName="MakeAmmo_CannonBall_Incendiary" or
-                        defName="MakeAmmo_CannonBall_Grape" or
-                        defName="MakeAmmo_MiniCannonBall_Round" or
-                        defName="MakeAmmo_MiniCannonBall_Grape" or
-                        defName="MakeAmmo_MortarGrenade" or
-                        ]</xpath>
-                        <value>
-                            <recipeUsers>
-                                <li></li>
-                            </recipeUsers>
-                        </value>
-                </li>
-                -->
             </operations>
         </match>
     </Operation>

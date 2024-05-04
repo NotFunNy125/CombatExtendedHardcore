@@ -110,11 +110,11 @@
 		<tab>Weapons</tab>
 		<techLevel>Industrial</techLevel>
 		<description>Learn how to craft old bolt-action rifles</description>
-		<baseCost>2000</baseCost>
+		<baseCost>6000</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
 		<prerequisites>
-			<li>PrecisionRifling</li>
+			<li>Gunsmithing</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	
