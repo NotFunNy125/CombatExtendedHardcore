@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("CC BY-NC-SA 4.0 2020")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.2+3b90455058b7697e50eb27e85378360ecc51afc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.2+ded3c8b658013c40952c0d2ea49b95f3fdfa4593")]
 [assembly: System.Reflection.AssemblyProductAttribute("CombatExtendedHardcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CombatExtendedHardcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.2.0")]
