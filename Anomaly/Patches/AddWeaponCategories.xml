@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_HellcatRifle" or
+            defName="Gun_Incinerator"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MidCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Assault</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="NerveSpiker"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MedievalRanged</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Arrow</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    
+</Patch>

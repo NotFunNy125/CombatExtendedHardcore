@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!--Bases-->
-	<CombatExtendedHardcore.WeaponCategoryDef Name="BaseIndustrialWeaponCategory" Abstract="True">
+	<!-- <CombatExtendedHardcore.WeaponCategoryDef Name="BaseIndustrialWeaponCategory" Abstract="True">
 		<subCategories>
 			<li>LMG</li>
 			<li>Assault</li>
@@ -11,7 +11,7 @@
 			<li>Shotgun</li>
 			<li>Pistol</li>
 		</subCategories>
-	</CombatExtendedHardcore.WeaponCategoryDef>
+	</CombatExtendedHardcore.WeaponCategoryDef> -->
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>NonLethal</defName>
@@ -23,37 +23,41 @@
 		<defName>Explosive</defName>
 		<baseChance>0.005</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
+	<CombatExtendedHardcore.WeaponCategoryDef>
+		<defName>ExplosiveTox</defName>
+		<baseChance>0.005</baseChance>
+	</CombatExtendedHardcore.WeaponCategoryDef>
 
-	<CombatExtendedHardcore.WeaponCategoryDef ParentName="BaseIndustrialWeaponCategory">
+	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>HighCaliber</defName>
 		<baseChance>0.005</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef ParentName="BaseIndustrialWeaponCategory">
+	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>HighCaliberLaser</defName>
 		<baseChance>0.005</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
-	<CombatExtendedHardcore.WeaponCategoryDef ParentName="BaseIndustrialWeaponCategory">
+	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>MidCaliber</defName>
 		<baseChance>0.02</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef ParentName="BaseIndustrialWeaponCategory">
+	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>MidCaliberLaser</defName>
 		<baseChance>0.02</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
-	<CombatExtendedHardcore.WeaponCategoryDef ParentName="BaseIndustrialWeaponCategory">
+	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>LowCaliber</defName>
 		<baseChance>0.04</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef ParentName="BaseIndustrialWeaponCategory">
+	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>LowCaliberLaser</defName>
 		<baseChance>0.04</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>MedievalRanged</defName>
-		<baseChance>0.1</baseChance>
+		<baseChance>5</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
@@ -63,8 +67,13 @@
 
 	<!--Melee-->
 	<CombatExtendedHardcore.WeaponCategoryDef>
-		<defName>SpacerMelee</defName>
+		<defName>UltraMelee</defName>
 		<baseChance>0.005</baseChance>
+	</CombatExtendedHardcore.WeaponCategoryDef>
+
+	<CombatExtendedHardcore.WeaponCategoryDef>
+		<defName>SpacerMelee</defName>
+		<baseChance>0.01</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
@@ -86,6 +95,16 @@
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>IndustrialGrenade</defName>
 		<baseChance>0.15</baseChance>
+	</CombatExtendedHardcore.WeaponCategoryDef>
+
+	<CombatExtendedHardcore.WeaponCategoryDef>
+		<defName>IndustrialGrenadeSmoke</defName>
+		<baseChance>1</baseChance>
+	</CombatExtendedHardcore.WeaponCategoryDef>
+	
+	<CombatExtendedHardcore.WeaponCategoryDef>
+		<defName>IndustrialGrenadeTox</defName>
+		<baseChance>1</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>

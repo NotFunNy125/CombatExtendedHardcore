@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_ToxbombLauncher"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>ExplosiveTox</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Weapon_GrenadeTox"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>IndustrialGrenadeTox</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Flamebow"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>NeolithicRanged</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

@@ -27,4 +27,20 @@
 	<CombatExtendedHardcore.WeaponSubCategoryDef>
 		<defName>Pistol</defName>
 	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Piercing</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Blunt</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Arrow</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>MedievalBullet</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
 </Defs>

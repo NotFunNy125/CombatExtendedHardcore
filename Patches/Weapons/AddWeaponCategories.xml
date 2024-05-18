@@ -4,7 +4,8 @@
         <xpath>Defs/ThingDef[
             defName="Weapon_GrenadeSmoke" or
             defName="Weapon_GrenadeFirefoam" or
-            defName="CE_FlareGun"
+            defName="CE_FlareGun" or
+            defName="MeleeWeapon_BreachAxe"
             ]</xpath>
             <value>
                 <li Class="CombatExtendedHardcore.WeaponSelector">

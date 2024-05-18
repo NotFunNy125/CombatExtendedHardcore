@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_MonoSword" or
+            defName="MeleeWeapon_PlasmaSword"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>UltraMelee</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Piercing</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_Zeushammer"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>UltraMelee</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Blunt</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_Axe" or
+            defName="MeleeWeapon_Warhammer"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MedievalMelee</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>
