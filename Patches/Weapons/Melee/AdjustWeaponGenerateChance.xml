@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+    <!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[
             defName="MeleeWeapon_Club" or
@@ -30,4 +31,5 @@
                 <generateAllowChance>0.6</generateAllowChance>
             </value>
     </Operation>
+    -->
 </Patch>

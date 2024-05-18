@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Weapon_GrenadeSmoke" or
+            defName="Weapon_GrenadeFirefoam" or
+            defName="CE_FlareGun"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>NonLethal</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <!--Ranged-->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="CE_GrenadeLauncher"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>Explosive</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_BoltActionRifle" or
+            defName="Gun_SniperRifle"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MidCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Sniper</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_AssaultRifle" or
+            defName="Gun_Minigun"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MidCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Assault</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_PumpShotgun" or
+            defName="Gun_ChainShotgun"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MidCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Shotgun</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_LMG"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MidCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>LMG</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+   
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_ChargeRifle" or
+            defName="Gun_ChargeLance"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MidCaliberLaser</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Assault</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_HeavySMG"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>LowCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>SMG</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_Revolver" or
+            defName="Gun_Autopistol" or
+            defName="Gun_MachinePistol"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>LowCaliber</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Pistol</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Bow_Short" or
+            defName="Pila" or
+            defName="Bow_Recurve" or
+            defName="Bow_Great"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>NeolithicRanged</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <!--Melee-->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_Mace" or
+            defName="MeleeWeapon_Gladius" or
+            defName="MeleeWeapon_LongSword"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>MedievalMelee</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_Club" or
+            defName="MeleeWeapon_Knife" or
+            defName="MeleeWeapon_Ikwa" or
+            defName="MeleeWeapon_Spear"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>NeolithicMelee</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <!--Consumable-->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Gun_TripleRocket" or
+            defName="Gun_DoomsdayRocket" or
+            defName="CE_DisposableRocketLauncher"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>ConsumableRocketLauncher</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Weapon_GrenadeFrag" or
+            defName="Weapon_GrenadeMolotov" or
+            defName="Weapon_GrenadeConcussion" or
+            defName="Weapon_GrenadeFlashbang"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>IndustrialGrenade</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Weapon_GrenadeEMP"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>IndustrialGrenadeEMP</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="Weapon_GrenadeStickBomb"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>NeolithicGrenade</li>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

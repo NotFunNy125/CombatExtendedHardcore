@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <!--Temporary until CE Patch-->
+    <!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[
             defName="Gun_HellcatRifle" or
@@ -93,4 +94,5 @@
                 <generateAllowChance>0.05</generateAllowChance>
             </value>
     </Operation>
+    -->
 </Patch>

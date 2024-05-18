@@ -12,6 +12,30 @@
             </value>
     </Operation>
 
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Mercenary_Gunner"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponSelector">
+                    <weaponCategories>
+                        <li>HighCaliber</li>
+                        <li>MidCaliber</li>
+                        <li>LowCaliber</li>
+                        <li>MedievalRanged</li>
+                        <li>MedievalMelee</li>
+                        <li>NeolithicMelee</li>
+                        <li>NeolithicRanged</li>
+                    </weaponCategories>
+                    <subCategories>
+                        <li>Assault</li>
+                        <li>Shotgun</li>
+                        <li>SMG</li>
+                    </subCategories>
+                </li>
+            </value>
+    </Operation>
+    
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/PawnKindDef[
             defName="Mercenary_Gunner" or
@@ -21,8 +45,8 @@
             ]/modExtensions/li/primaryMagazineCount</xpath>
             <value>
                 <primaryMagazineCount>
-                    <min>3</min>
-                    <max>4</max>
+                    <min>2</min>
+                    <max>3</max>
                 </primaryMagazineCount>
             </value>
     </Operation>

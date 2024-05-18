@@ -8,3 +8,4 @@ F:\SteamLibrary\steamapps\common\RimWorld\Mods\CombatExtendedHardcore\Source\Com
 F:\SteamLibrary\steamapps\common\RimWorld\Mods\CombatExtendedHardcore\Source\CombatExtendedHardcore\obj\Debug\CombatEx.DC2FAA1E.Up2Date
 F:\SteamLibrary\steamapps\common\RimWorld\Mods\CombatExtendedHardcore\Source\CombatExtendedHardcore\obj\Debug\CombatExtendedHardcore.dll
 F:\SteamLibrary\steamapps\common\RimWorld\Mods\CombatExtendedHardcore\Source\CombatExtendedHardcore\obj\Debug\CombatExtendedHardcore.pdb
+F:\SteamLibrary\steamapps\common\RimWorld\Mods\CombatExtendedHardcore\Source\CombatExtendedHardcore\obj\Debug\CombatExtendedHardcore.sourcelink.json

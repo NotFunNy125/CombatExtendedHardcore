@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
+<!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[
             defName="Bow_Short" or
@@ -14,7 +14,7 @@
                 <li>IndustrialGunAdvanced</li>
             </value>
     </Operation>
-<!--
+
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/weaponTags</xpath>
             <value>
@@ -57,7 +57,7 @@
                 <li></li>
             </value>
     </Operation>
--->
+
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/weaponTags</xpath>
@@ -72,4 +72,5 @@
                 <li>GunHeavy</li>
             </value>
     </Operation>
+    -->
 </Patch>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Sniper</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Marksman</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>LMG</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+	
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Assault</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>SMG</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Shotgun</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Pistol</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+</Defs>

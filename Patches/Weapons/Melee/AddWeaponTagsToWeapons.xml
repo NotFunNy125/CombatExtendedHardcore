@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+    <!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[
             defName="MeleeWeapon_Club" or
@@ -21,11 +22,11 @@
         <xpath>Defs/ThingDef[
             defName="MeleeWeapon_Mace" or
             defName="MeleeWeapon_Gladius" or
-            defName="MeleeWeapon_LongSword" or
-            defName="IndustrialGunAdvanced"
+            defName="MeleeWeapon_LongSword"
             ]/weaponTags</xpath>
             <value>
-                <li>Gun</li>
+                <li></li>
             </value>
     </Operation>
+    -->
 </Patch>

@@ -23,6 +23,11 @@
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('C:\Program Files (x86)\Mono\bin\pdb2mdb.bat')">
     <Exec Command="if $(ConfigurationName) == Debugger call &quot;C:\Program Files (x86)\Mono\bin\pdb2mdb.bat&quot; $(TargetDir)$(TargetName)$(TargetExt)" />
   </Target>
+  <ItemGroup>
+    <Compile Remove="PawnLoadouts\**" />
+    <EmbeddedResource Remove="PawnLoadouts\**" />
+    <None Remove="PawnLoadouts\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Krafs.Publicizer" Version="2.2.1">
@@ -37,10 +42,6 @@
     <Reference Include="CombatExtended">
       <HintPath>..\..\..\..\..\..\workshop\content\294100\2890901044\Assemblies\CombatExtended.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="PawnLoadouts\" />
   </ItemGroup>
 
 </Project>
