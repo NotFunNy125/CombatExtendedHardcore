@@ -1,10 +1,26 @@
-Source/CombatExtendedHardcore/.vs/CombatExtendedHardcore/v17/DocumentLayout.json
-Source/CombatExtendedHardcore/.vs/CombatExtendedHardcore/v17/.suo
-/Source/CombatExtendedHardcore/.vs
+Assemblies/CombatExtended.dll
+AssembliesCompat/*.dll
+AssembliesCore/*.dll
+*.suo
+*.cache
+*/Thumbs.db
+/Source/.vs/*
+Source/*/obj/*
+Source/*/bin/*
+/Source/*/*.csproj.user
+.vscode
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.pdb
+ 
+# Ignore RimWorld assemblies 
+Assembly-CSharp.dll 
+UnityEngine.dll 
 
-Source/CombatExtendedHardcore/obj/Debug/CombatExtendedHardcore.AssemblyInfo.cs
-Source/CombatExtendedHardcore/obj/Debug/CombatExtendedHardcore.AssemblyInfo.cs
-Source/CombatExtendedHardcore/obj/Debug/CombatExtendedHardcore.AssemblyInfoInputs.cache
-Source/CombatExtendedHardcore/obj/Debug/CombatExtendedHardcore.AssemblyInfo.cs
-Source/CombatExtendedHardcore/.vs/CombatExtendedHardcore/v17/DocumentLayout.json
-Source/CombatExtendedHardcore/.vs/CombatExtendedHardcore/v17/.suo
+# Exclude optimized .dds textures from RimPy / png2dds
+*.dds
+
+
+.idea/
