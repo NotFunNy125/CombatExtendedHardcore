@@ -4,6 +4,8 @@ AssembliesCompat/*.dll
 AssembliesCore/*.dll
 *.suo
 *.cache
+*.vsidx
+*.bin
 */Thumbs.db
 /Source/CombatExtendedHardcore/.vs/*
 Source/*/obj/*
