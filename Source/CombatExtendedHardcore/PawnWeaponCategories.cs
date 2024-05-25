@@ -17,6 +17,7 @@ namespace CombatExtendedHardcore
         public static void Reset()
         {
             // Initialize weapons
+            Log.Message("Test");
             Predicate<ThingDef> isWeapon = (ThingDef td) => td.equipmentType == EquipmentType.Primary && !td.weaponTags.NullOrEmpty<string>();
             allWeaponPairs = ThingStuffPair.AllWith(isWeapon);
             foreach (ThingDef thingDef in from td in DefDatabase<ThingDef>.AllDefs
