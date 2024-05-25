@@ -8,6 +8,7 @@ AssembliesCore/*.dll
 /Source/CombatExtendedHardcore/.vs/*
 Source/CombatExtendedHardcore/*/obj/*
 Source/CombatExtendedHardcore/*/bin/*
+Source/CombatExtendedHardcore/obj/Debug/*
 /Source/CombatExtendedHardcore/*/*.csproj.user
 .vscode
 # ReSharper is a .NET coding add-in
