@@ -6,13 +6,14 @@
             defName="Gun_Incinerator"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MidCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Assault</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -22,16 +23,15 @@
             defName="NerveSpiker"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MedievalRanged</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Arrow</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MedievalRanged>
+                            <subCategories>
+                                <li>Arrow</li>
+                            </subCategories>
+                        </MedievalRanged>
+                    </categories>
                 </li>
             </value>
     </Operation>
-
-    
 </Patch>

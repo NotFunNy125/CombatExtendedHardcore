@@ -13,7 +13,7 @@ namespace CombatExtendedHardcore
 
             harmony.PatchAll();
 
-            LongEventHandler.QueueLongEvent(WeaponSelector.Reset, "CEH_LongEvent_WeaponSelector", false, null);
+            LongEventHandler.QueueLongEvent(PawnWeaponCategories.Reset, "CEH_LongEvent_PawnWeaponCategories", false, null);
         }
     }
 }

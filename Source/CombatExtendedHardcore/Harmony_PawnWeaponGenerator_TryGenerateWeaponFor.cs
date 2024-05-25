@@ -9,7 +9,7 @@ namespace CombatExtendedHardcore
     {
         public static bool Prefix(Pawn pawn, PawnGenerationRequest request)
         {
-            var weaponSelector = pawn.kindDef.GetModExtension<WeaponSelector>();
+            var weaponSelector = pawn.kindDef.GetModExtension<PawnWeaponCategories>();
             if (weaponSelector == null)
             {
                 return true;

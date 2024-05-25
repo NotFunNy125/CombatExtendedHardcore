@@ -8,24 +8,23 @@
             defName="MeleeWeapon_BreachAxe"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>NonLethal</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <NonLethal></NonLethal>
+                    </categories>
                 </li>
             </value>
     </Operation>
 
-    <!--Ranged-->
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[
             defName="CE_GrenadeLauncher"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>Explosive</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <Explosive></Explosive>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -36,13 +35,14 @@
             defName="Gun_SniperRifle"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MidCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Sniper</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Sniper</li>
+                            </subCategories>
+                        </MidCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -53,13 +53,14 @@
             defName="Gun_Minigun"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MidCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Assault</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -70,13 +71,14 @@
             defName="Gun_ChainShotgun"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MidCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Shotgun</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Shotgun</li>
+                            </subCategories>
+                        </LowCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -86,13 +88,14 @@
             defName="Gun_LMG"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MidCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>LMG</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>LMG</li>
+                            </subCategories>
+                        </MidCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -103,29 +106,32 @@
             defName="Gun_ChargeLance"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MidCaliberLaser</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Assault</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MidCaliberLaser>
+                            <subCategories>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliberLaser>
+                    </categories>
                 </li>
             </value>
     </Operation>
     
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[
-            defName="Gun_HeavySMG"
+            defName="Gun_HeavySMG" or
+            defName="Gun_MachinePistol"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>LowCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>SMG</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>SMG</li>
+                            </subCategories>
+                        </LowCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -133,17 +139,17 @@
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[
             defName="Gun_Revolver" or
-            defName="Gun_Autopistol" or
-            defName="Gun_MachinePistol"
+            defName="Gun_Autopistol"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>LowCaliber</li>
-                    </weaponCategories>
-                    <subCategories>
-                        <li>Pistol</li>
-                    </subCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                            </subCategories>
+                        </LowCaliber>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -156,15 +162,15 @@
             defName="Bow_Great"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>NeolithicRanged</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <NeolithicRanged></NeolithicRanged>
+                    </categories>
                 </li>
             </value>
     </Operation>
 
-    <!--Melee-->
+
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[
             defName="MeleeWeapon_Mace" or
@@ -172,10 +178,10 @@
             defName="MeleeWeapon_LongSword"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MedievalMelee</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MedievalMelee></MedievalMelee>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -188,15 +194,15 @@
             defName="MeleeWeapon_Spear"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>NeolithicMelee</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <NeolithicMelee></NeolithicMelee>
+                    </categories>
                 </li>
             </value>
     </Operation>
 
-    <!--Consumable-->
+    
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[
             defName="Gun_TripleRocket" or
@@ -204,10 +210,10 @@
             defName="CE_DisposableRocketLauncher"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>ConsumableRocketLauncher</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <ConsumableRocketLauncher></ConsumableRocketLauncher>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -220,10 +226,10 @@
             defName="Weapon_GrenadeFlashbang"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>IndustrialGrenade</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <IndustrialGrenade></IndustrialGrenade>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -233,10 +239,10 @@
             defName="Weapon_GrenadeEMP"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>IndustrialGrenadeEMP</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <IndustrialGrenadeEMP></IndustrialGrenadeEMP>
+                    </categories>
                 </li>
             </value>
     </Operation>
@@ -246,10 +252,10 @@
             defName="Weapon_GrenadeStickBomb"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>NeolithicGrenade</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <NeolithicGrenade></NeolithicGrenade>
+                    </categories>
                 </li>
             </value>
     </Operation>

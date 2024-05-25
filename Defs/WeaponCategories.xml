@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--Bases-->
-	<!-- <CombatExtendedHardcore.WeaponCategoryDef Name="BaseIndustrialWeaponCategory" Abstract="True">
-		<subCategories>
-			<li>LMG</li>
-			<li>Assault</li>
-			<li>SMG</li>
-			<li>Marksman</li>
-			<li>Sniper</li>
-			<li>Shotgun</li>
-			<li>Pistol</li>
-		</subCategories>
-	</CombatExtendedHardcore.WeaponCategoryDef> -->
-
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>NonLethal</defName>
 		<baseChance>0</baseChance>
@@ -57,7 +44,7 @@
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>MedievalRanged</defName>
-		<baseChance>5</baseChance>
+		<baseChance>0.1</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>

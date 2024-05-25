@@ -6,13 +6,14 @@
             defName="MeleeWeapon_PlasmaSword"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
+                <li Class="CombatExtendedHardcore.WeaponCategories">
                     <weaponCategories>
-                        <li>UltraMelee</li>
+                        <UltraMelee>
+                            <categories>
+                                <li>Piercing</li>
+                            </categories>
+                        </UltraMelee>
                     </weaponCategories>
-                    <subCategories>
-                        <li>Piercing</li>
-                    </subCategories>
                 </li>
             </value>
     </Operation>
@@ -22,13 +23,14 @@
             defName="MeleeWeapon_Zeushammer"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
+                <li Class="CombatExtendedHardcore.WeaponCategories">
                     <weaponCategories>
-                        <li>UltraMelee</li>
+                        <UltraMelee>
+                            <categories>
+                                <li>Blunt</li>
+                            </categories>
+                        </UltraMelee>
                     </weaponCategories>
-                    <subCategories>
-                        <li>Blunt</li>
-                    </subCategories>
                 </li>
             </value>
     </Operation>
@@ -39,10 +41,10 @@
             defName="MeleeWeapon_Warhammer"
             ]</xpath>
             <value>
-                <li Class="CombatExtendedHardcore.WeaponSelector">
-                    <weaponCategories>
-                        <li>MedievalMelee</li>
-                    </weaponCategories>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MedievalMelee></MedievalMelee>
+                    </categories>
                 </li>
             </value>
     </Operation>
