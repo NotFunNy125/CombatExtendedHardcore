@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\weaponselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:weaponselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\pawnweaponcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:pawnweaponcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\weaponsubcategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:weaponsubcategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\weaponcategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:weaponcategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\chancemultiplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:chancemultiplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|f:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\combatextendedhardcore\\source\\combatextendedhardcore\\weaponcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C699ABE-1AF9-4021-AFEA-FA998B8C71DA}|CombatExtendedHardcore.csproj|solutionrelative:weaponcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeaponSelector.cs",
-              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponSelector.cs",
-              "RelativeDocumentMoniker": "WeaponSelector.cs",
-              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponSelector.cs",
-              "RelativeToolTip": "WeaponSelector.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAADgv8cAAAAJAAAA",
+              "Title": "PawnWeaponCategories.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\PawnWeaponCategories.cs",
+              "RelativeDocumentMoniker": "PawnWeaponCategories.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\PawnWeaponCategories.cs",
+              "RelativeToolTip": "PawnWeaponCategories.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAcwH4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T10:26:16.571Z",
               "IsPinned": true,
@@ -44,40 +36,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeaponCategoryDef.cs",
-              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponCategoryDef.cs",
-              "RelativeDocumentMoniker": "WeaponCategoryDef.cs",
-              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponCategoryDef.cs",
-              "RelativeToolTip": "WeaponCategoryDef.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T11:36:23.61Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WeaponSubCategoryDef.cs",
-              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponSubCategoryDef.cs",
-              "RelativeDocumentMoniker": "WeaponSubCategoryDef.cs",
-              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponSubCategoryDef.cs",
-              "RelativeToolTip": "WeaponSubCategoryDef.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Title": "WeaponCategories.cs",
+              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponCategories.cs",
+              "RelativeDocumentMoniker": "WeaponCategories.cs",
+              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\WeaponCategories.cs",
+              "RelativeToolTip": "WeaponCategories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T16:02:53.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChanceMultiplier.cs",
-              "DocumentMoniker": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\ChanceMultiplier.cs",
-              "RelativeDocumentMoniker": "ChanceMultiplier.cs",
-              "ToolTip": "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CombatExtendedHardcore\\Source\\CombatExtendedHardcore\\ChanceMultiplier.cs",
-              "RelativeToolTip": "ChanceMultiplier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:55:55.07Z"
+              "WhenOpened": "2024-05-25T08:11:35.558Z",
+              "EditorCaption": ""
             }
           ]
         }
