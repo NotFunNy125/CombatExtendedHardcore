@@ -1,10 +1,11 @@
+Assemblies/CombatExtendedHardcore.dll
 Assemblies/CombatExtended.dll
 AssembliesCompat/*.dll
 AssembliesCore/*.dll
 *.suo
 *.cache
 */Thumbs.db
-/Source/.vs/*
+/Source/CombatExtendedHardcore/.vs/*
 Source/*/obj/*
 Source/*/bin/*
 /Source/*/*.csproj.user
