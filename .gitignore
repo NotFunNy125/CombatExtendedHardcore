@@ -5,10 +5,10 @@ AssembliesCore/*.dll
 *.suo
 *.cache
 */Thumbs.db
-/Source/.vs/*
-Source/*/obj/*
-Source/*/bin/*
-/Source/*/*.csproj.user
+/Source/CombatExtendedHardcore/.vs/*
+Source/CombatExtendedHardcore/*/obj/*
+Source/CombatExtendedHardcore/*/bin/*
+/Source/CombatExtendedHardcore/*/*.csproj.user
 .vscode
 # ReSharper is a .NET coding add-in
 _ReSharper*/
