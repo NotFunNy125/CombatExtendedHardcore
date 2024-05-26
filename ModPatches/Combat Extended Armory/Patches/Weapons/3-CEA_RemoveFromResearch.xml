@@ -36,7 +36,6 @@
                         defName="CE_Gun_SRS" or
                         defName="CE_Gun_TacFifty" or
                         defName="CE_Gun_TavorSeven" or
-                        defName="CE_Gun_WallGun" or
                         defName="CE_Gun_HenrySideGate"
 						]/recipeMaker/researchPrerequisite</xpath>
                 </li>

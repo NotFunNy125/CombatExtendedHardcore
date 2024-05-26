@@ -327,7 +327,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators/li[tradeTag="WeaponRanged"]/countRange</xpath>
 			<value>
-				<countRange>3~3</countRange>
+				<countRange>0~3</countRange>
 			</value>
 	</Operation>
 
