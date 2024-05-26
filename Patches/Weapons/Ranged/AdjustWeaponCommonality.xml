@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+    <!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[
             defName="Gun_Revolver" or
@@ -201,5 +202,5 @@
             </operations>
         </match>
     </Operation>
-  
+  -->
 </Patch>

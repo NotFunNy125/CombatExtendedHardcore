@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[
+            defName="CE_Mercenary_MachineGunner"
+            ]/modExtensions/li/primaryMagazineCount</xpath>
+            <value>
+                <primaryMagazineCount>
+                    <min>1</min>
+                    <max>3</max>
+                </primaryMagazineCount>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Mercenary_Gunner"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Shotgun</li>
+                                <li>SMG</li>
+                                <li>Pistol</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[
+            defName="Mercenary_Gunner" or
+            defName="Mercenary_Gunner_Acidifier" or
+            defName="Town_Guard" or
+            defName="Pirate"
+            ]/modExtensions/li/primaryMagazineCount</xpath>
+            <value>
+                <primaryMagazineCount>
+                    <min>2</min>
+                    <max>3</max>
+                </primaryMagazineCount>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="CE_Tribal_Grenadier"]/modExtensions/li/primaryMagazineCount</xpath>
+            <value>
+                <primaryMagazineCount>
+                    <min>4</min>
+                    <max>10</max>
+                </primaryMagazineCount>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="Grenadier_Destructive" or defName="Grenadier_EMP"]/modExtensions/li/primaryMagazineCount</xpath>
+            <value>
+                <primaryMagazineCount>
+                    <min>4</min>
+                    <max>10</max>
+                </primaryMagazineCount>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[
+            defName="Mercenary_Sniper" or
+            defName="Mercenary_Sniper_Acidifier" or
+            defName="StrangerInBlack"
+            ]/modExtensions/li/primaryMagazineCount</xpath>
+            <value>
+                <primaryMagazineCount>
+                    <min>2</min>
+                    <max>3</max>
+                </primaryMagazineCount>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="Mercenary_Heavy"]/modExtensions/li/primaryMagazineCount</xpath>
+            <value>
+                <primaryMagazineCount>
+                    <min>4</min>
+                    <max>7</max>
+                </primaryMagazineCount>
+            </value>
+    </Operation>
+</Patch>

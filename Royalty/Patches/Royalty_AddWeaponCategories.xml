@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_MonoSword" or
+            defName="MeleeWeapon_MonoSwordBladelink" or
+            defName="MeleeWeapon_PlasmaSword" or
+            defName="MeleeWeapon_PlasmaSwordBladelink"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <UltraMelee>
+                            <subCategories>
+                                <li>Piercing</li>
+                            </subCategories>
+                        </UltraMelee>
+                    </categories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_Zeushammer" or
+            defName="MeleeWeapon_ZeusHammerBladelink"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <UltraMelee>
+                            <subCategories>
+                                <li>Blunt</li>
+                            </subCategories>
+                        </UltraMelee>
+                    </categories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[
+            defName="MeleeWeapon_Axe" or
+            defName="MeleeWeapon_Warhammer"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.WeaponCategories">
+                    <categories>
+                        <MedievalMelee></MedievalMelee>
+                    </categories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

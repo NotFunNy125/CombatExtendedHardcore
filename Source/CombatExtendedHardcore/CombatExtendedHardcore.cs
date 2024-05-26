@@ -12,6 +12,8 @@ namespace CombatExtendedHardcore
             harmony = new Harmony("CombatExtendedHardcore");
 
             harmony.PatchAll();
+
+            LongEventHandler.QueueLongEvent(PawnWeaponCategories.Reset, "CEH_LongEvent_PawnWeaponCategories", false, null);
         }
     }
 }

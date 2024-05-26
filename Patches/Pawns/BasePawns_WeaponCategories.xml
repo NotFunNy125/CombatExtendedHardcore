@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="MercenaryMidTierBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>Marksman</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Shotgun</li>
+                                <li>SMG</li>
+                                <li>Pistol</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="MercenarySniperBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <HighCaliber>
+                            <subCategories>
+                                <li>Sniper</li>
+                                <li>Marksman</li>
+                            </subCategories>
+                        </HighCaliber>
+
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Sniper</li>
+                                <li>Marksman</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Sniper</li>
+                                <li>Marksman</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged>
+                            <subCategories>
+                                <li>Sniper</li>
+                                <li>Marksman</li>
+                            </subCategories>
+                        </MedievalRanged>
+                        
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="MercenarySlasherBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <UltraMelee></UltraMelee>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="MercenaryHeavyBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <HighCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                                <li>HMG</li>
+                            </subCategories>
+                        </HighCaliber>
+
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="MercenaryEliteTierBase" or
+            @Name="MercenaryEliteBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <HighCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                                <li>HMG</li>
+                                <li>Marksman</li>
+                                <li>Pistol</li>
+                            </subCategories>
+                        </HighCaliber>
+
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                                <li>Marksman</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="VillagerBase" or
+            @Name="TraderBase" or
+            @Name="CouncilmanBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicGrenade></NeolithicGrenade>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="GuardBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber></LowCaliber>
+                        
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicGrenade></NeolithicGrenade>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="ScavengerBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                                <li>SMG</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicGrenade></NeolithicGrenade>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="PirateKindBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                                <li>Assault</li>
+                                <li>SMG</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                                <li>SMG</li>
+                            </subCategories>
+                        </LowCaliber>
+                        
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicGrenade></NeolithicGrenade>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="TribalArcherBase" or
+            defName="Tribal_Hunter" or
+            defName="Tribal_HeavyArcher"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <loadFolders>
-  <v1.5>
-    <li>/</li>
-    <li IfModActive="CETeam.CombatExtendedArmory">ModPatches/Combat Extended Armory</li>
-    <li IfModActive="CETeam.CombatExtendedGuns">ModPatches/Combat Extended Guns</li>
-  </v1.5>
+    <v1.5>
+        <li>/</li>
+        <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+        <li IfModActive="Ludeon.Rimworld.Ideology">Ideology</li>
+        <li IfModActive="Ludeon.Rimworld.Biotech">Biotech</li>
+        <li IfModActive="Ludeon.Rimworld.Anomaly">Anomaly</li>
+        <li IfModActive="CETeam.CombatExtendedArmory">ModPatches/Combat Extended Armory</li>
+        <li IfModActive="CETeam.CombatExtendedGuns">ModPatches/Combat Extended Guns</li>
+    </v1.5>
 </loadFolders>

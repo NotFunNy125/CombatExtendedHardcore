@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Grenadier_Tox"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <IndustrialGrenadeTox></IndustrialGrenadeTox>
+
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

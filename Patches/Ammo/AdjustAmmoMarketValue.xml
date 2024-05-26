@@ -935,12 +935,4 @@
             </value>
     </Operation>
 -->
-    
-    <!--Adjust Mechanitor weaponMoney-->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/PawnKindDef[defName="Mechanitor"]/weaponMoney</xpath>
-            <value>
-                <weaponMoney>470~900</weaponMoney>
-            </value>
-    </Operation>
 </Patch>
