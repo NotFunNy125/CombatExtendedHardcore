@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+    <!--Tribal_Penitent was skipped-->
+
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/PawnKindDef[
-            defName="Mercenary_Gunner"
+            defName="Tribal_HeavyArcher"
             ]</xpath>
             <value>
                 <li Class="CombatExtendedHardcore.PawnWeaponCategories">
                     <weaponCategories>
-                        <MidCaliber>
-                            <subCategories>
-                                <li>Assault</li>
-                            </subCategories>
-                        </MidCaliber>
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
 
+    <!--Tribal_Warrior was skipped-->
+    <!--Tribal_Berserker was skipped-->
+    <!--Tribal_ChiefMelee was skipped-->
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Tribal_ChiefRanged"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
                         <LowCaliber>
                             <subCategories>
-                                <li>Shotgun</li>
-                                <li>SMG</li>
                                 <li>Pistol</li>
                             </subCategories>
                         </LowCaliber>
-
                         <MedievalRanged></MedievalRanged>
                         <NeolithicRanged></NeolithicRanged>
-                        <MedievalMelee></MedievalMelee>
-                        <NeolithicMelee></NeolithicMelee>
                     </weaponCategories>
                 </li>
             </value>

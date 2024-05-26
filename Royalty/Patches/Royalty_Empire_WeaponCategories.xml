@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Empire_Common_Trader"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MidCaliber>
+                            <subCategories>
+                                <li>SMG</li>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>SMG</li>
+                                <li>Assault</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Empire_Fighter_Grenadier"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <IndustrialGrenade></IndustrialGrenade>
+                        <NeolithicGrenade></NeolithicGrenade>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Empire_Fighter_Champion" or
+            defName="Empire_Fighter_StellicGuardMelee"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <UltraMelee></UltraMelee>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Empire_Fighter_Cataphract" or
+            defName="Empire_Fighter_StellicGuardRanged"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <HighCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                            </subCategories>
+                        </HighCaliber>
+
+                        <MidCaliber>
+                            <subCategories>
+                                <li>Assault</li>
+                                <li>LMG</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

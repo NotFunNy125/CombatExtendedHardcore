@@ -2,16 +2,12 @@
 <Defs>
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>NonLethal</defName>
-		<baseChance>0</baseChance>
+		<baseChance>1</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<!--Ranged-->
 	<CombatExtendedHardcore.WeaponCategoryDef>
-		<defName>Explosive</defName>
-		<baseChance>0.005</baseChance>
-	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef>
-		<defName>ExplosiveTox</defName>
+		<defName>Launcher</defName>
 		<baseChance>0.005</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
@@ -19,26 +15,14 @@
 		<defName>HighCaliber</defName>
 		<baseChance>0.005</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef>
-		<defName>HighCaliberLaser</defName>
-		<baseChance>0.005</baseChance>
-	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>MidCaliber</defName>
 		<baseChance>0.02</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef>
-		<defName>MidCaliberLaser</defName>
-		<baseChance>0.02</baseChance>
-	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>LowCaliber</defName>
-		<baseChance>0.04</baseChance>
-	</CombatExtendedHardcore.WeaponCategoryDef>
-	<CombatExtendedHardcore.WeaponCategoryDef>
-		<defName>LowCaliberLaser</defName>
 		<baseChance>0.04</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
@@ -57,12 +41,12 @@
 		<defName>UltraMelee</defName>
 		<baseChance>0.005</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-
+<!--
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>SpacerMelee</defName>
 		<baseChance>0.01</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
-
+-->
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>MedievalMelee</defName>
 		<baseChance>0.305</baseChance>
@@ -86,21 +70,21 @@
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>IndustrialGrenadeSmoke</defName>
-		<baseChance>1</baseChance>
+		<baseChance>0.2</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 	
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>IndustrialGrenadeTox</defName>
-		<baseChance>1</baseChance>
+		<baseChance>0.1</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>IndustrialGrenadeEMP</defName>
-		<baseChance>1</baseChance>
+		<baseChance>0.1</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 
 	<CombatExtendedHardcore.WeaponCategoryDef>
 		<defName>NeolithicGrenade</defName>
-		<baseChance>0.40</baseChance>
+		<baseChance>0.25</baseChance>
 	</CombatExtendedHardcore.WeaponCategoryDef>
 </Defs>

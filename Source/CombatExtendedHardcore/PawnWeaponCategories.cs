@@ -17,7 +17,7 @@ namespace CombatExtendedHardcore
         public static void Reset()
         {
             // Initialize weapons
-            Predicate<ThingDef> isWeapon = (ThingDef td) => td.equipmentType == EquipmentType.Primary && !td.weaponTags.NullOrEmpty<string>();
+            Predicate<ThingDef> isWeapon = (ThingDef td) => td.equipmentType == EquipmentType.Primary && !td.weaponTags.NullOrEmpty<string>() && !td.weaponTags.Any(wt => wt == "TurretGun");
             allWeaponPairs = ThingStuffPair.AllWith(isWeapon);
             foreach (ThingDef thingDef in from td in DefDatabase<ThingDef>.AllDefs
                                           where isWeapon(td)
@@ -60,10 +60,10 @@ namespace CombatExtendedHardcore
 
             var validWeapons = new List<ThingStuffPair>();
             GenCollection.TryRandomElementByWeight(GetAllMainCategories(), (WeaponCategoryDef c) => c.baseChance, out var chosenMainCategory);
-            var counClassOfMainCategory = weaponCategories.FirstOrDefault(wc => wc.mainCategory.defName == chosenMainCategory.defName);
-            if (counClassOfMainCategory.subCategories.Count() != 0)
+            var countClassOfMainCategory = weaponCategories.FirstOrDefault(wc => wc.mainCategory.defName == chosenMainCategory.defName);
+            if (countClassOfMainCategory.subCategories.Count() != 0)
             {
-                GenCollection.TryRandomElement(counClassOfMainCategory.subCategories, out var chosenSubCategory);
+                GenCollection.TryRandomElement(countClassOfMainCategory.subCategories, out var chosenSubCategory);
                 validWeapons = GetWeaponsWithWeaponCategory(chosenMainCategory, chosenSubCategory);
             }
             else
@@ -119,15 +119,25 @@ namespace CombatExtendedHardcore
                 var weaponSelector = weapon.thing.GetModExtension<WeaponCategories>();
                 if (weaponSelector != null)
                 {
-                    if (WeaponHasMainAndSubCategory(weaponSelector.categories, mainCategory, subCategory) && !validWeapons.Contains(weapon))
+                    if (subCategory != null)
                     {
-                        validWeapons.Add(weapon);
+                        if (WeaponHasMainAndSubCategory(weaponSelector.categories, mainCategory, subCategory) && !validWeapons.Contains(weapon))
+                        {
+                            validWeapons.Add(weapon);
+                        }
                     }
-                    else if (WeaponHasMainCategory(weaponSelector.categories, mainCategory) && !validWeapons.Contains(weapon) && subCategory == null)
+                    else
                     {
-                        validWeapons.Add(weapon);
+                        if (WeaponHasMainCategory(weaponSelector.categories, mainCategory) && !validWeapons.Contains(weapon))
+                        {
+                            validWeapons.Add(weapon);
+                        }
                     }
                 }
+                //else
+                //{
+                //    Log.Message($"{weapon.thing.defName} doesnt have WeaponCategories");
+                //}
             }
             return validWeapons;
         }
@@ -138,7 +148,10 @@ namespace CombatExtendedHardcore
             {
                 foreach (var categoryClass in categoriesClassOfWeapon)
                 {
-                    return categoryClass.subCategories.Any(sc => sc.defName == subCategory.defName);
+                    if(categoryClass.subCategories.Any(sc => sc.defName == subCategory.defName))
+                    {
+                        return true;
+                    }
                 }
             }
             return false;

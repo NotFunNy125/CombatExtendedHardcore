@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!--Ranged-->
 	<CombatExtendedHardcore.WeaponSubCategoryDef>
 		<defName>Sniper</defName>
 	</CombatExtendedHardcore.WeaponSubCategoryDef>
 
 	<CombatExtendedHardcore.WeaponSubCategoryDef>
 		<defName>Marksman</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>HMG</defName>
 	</CombatExtendedHardcore.WeaponSubCategoryDef>
 
 	<CombatExtendedHardcore.WeaponSubCategoryDef>
@@ -29,18 +34,15 @@
 	</CombatExtendedHardcore.WeaponSubCategoryDef>
 
 	<CombatExtendedHardcore.WeaponSubCategoryDef>
+		<defName>Arrow</defName>
+	</CombatExtendedHardcore.WeaponSubCategoryDef>
+
+	<!--Melee-->
+	<CombatExtendedHardcore.WeaponSubCategoryDef>
 		<defName>Piercing</defName>
 	</CombatExtendedHardcore.WeaponSubCategoryDef>
 
 	<CombatExtendedHardcore.WeaponSubCategoryDef>
 		<defName>Blunt</defName>
-	</CombatExtendedHardcore.WeaponSubCategoryDef>
-
-	<CombatExtendedHardcore.WeaponSubCategoryDef>
-		<defName>Arrow</defName>
-	</CombatExtendedHardcore.WeaponSubCategoryDef>
-
-	<CombatExtendedHardcore.WeaponSubCategoryDef>
-		<defName>MedievalBullet</defName>
 	</CombatExtendedHardcore.WeaponSubCategoryDef>
 </Defs>

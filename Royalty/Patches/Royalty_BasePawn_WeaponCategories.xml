@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="ImperialTrooperBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <HighCaliber>
+                            <subCategories>
+                                <li>SMG</li>
+                                <li>Assault</li>
+                            </subCategories>
+                        </HighCaliber>
+
+                        <MidCaliber>
+                            <subCategories>
+                                <li>SMG</li>
+                                <li>Assault</li>
+                            </subCategories>
+                        </MidCaliber>
+
+                        <LowCaliber>
+                            <subCategories>
+                                <li>SMG</li>
+                                <li>Assault</li>
+                            </subCategories>
+                        </LowCaliber>
+
+                        <MedievalRanged></MedievalRanged>
+                        <NeolithicRanged></NeolithicRanged>
+                        <MedievalMelee></MedievalMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            @Name="RoyalBase"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <UltraMelee></UltraMelee>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>

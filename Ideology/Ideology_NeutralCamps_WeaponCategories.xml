@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Tribal_Miner" or
+            defName="Tribal_Logger"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <MedievalRanged></MedievalRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Miner" or
+            defName="Logger" or
+            defName="Farmer"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                            </subCategories>
+                        </LowCaliber>
+                        <MedievalRanged></MedievalRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[
+            defName="Hunter"
+            ]</xpath>
+            <value>
+                <li Class="CombatExtendedHardcore.PawnWeaponCategories">
+                    <weaponCategories>
+                        <LowCaliber>
+                            <subCategories>
+                                <li>Pistol</li>
+                                <li>Shotgun</li>
+                                <li>SMG</li>
+                            </subCategories>
+                        </LowCaliber>
+                        <MedievalRanged></MedievalRanged>
+                        <MedievalMelee></MedievalMelee>
+                        <NeolithicMelee></NeolithicMelee>
+                    </weaponCategories>
+                </li>
+            </value>
+    </Operation>
+</Patch>
